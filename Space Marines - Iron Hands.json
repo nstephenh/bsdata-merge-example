@@ -1,0 +1,1043 @@
+{
+  "catalogue": {
+    "name": "Space Marines - Iron Hands",
+    "id": "5e55-ffc5-5a86-6c9e",
+    "battleScribeVersion": "2.03",
+    "gameSystemId": "sys-352e-adc2-7639-d610",
+    "gameSystemRevision": 18,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "catalogueLinks": [
+      {"name": "Space Marines - Armoury", "id": "ee67-6782-8959-a138", "targetId": "7c41-8eb5-b545-a953", "type": "catalogue"},
+      {"name": "Space Marines - Config/Keywords/Abilties", "id": "dac5-58ff-08e6-1b9e", "targetId": "8fa7-7cb9-aaf9-2e48", "type": "catalogue"},
+      {"name": "Space Marines - Models", "id": "f107-e233-be20-1fb6", "targetId": "e76a-7b32-5506-0c8d", "type": "catalogue"}
+    ],
+    "categoryEntries": [
+      {"name": "Ferrus Manus", "id": "cf3b-3f41-dbb7-3d29", "hidden": false},
+      {"name": "Medusa Immortals Squad", "id": "9d48-28a6-5b03-5811", "hidden": false},
+      {"name": "Gorgon Terminator Squad", "id": "437d-e01b-efbf-b95e", "hidden": false}
+    ],
+    "entryLinks": [
+      {"name": "Detachment", "id": "55de-5700-0cf9-ff54", "hidden": false, "import": true, "targetId": "186f-2418-9ae2-4011", "type": "selectionEntry"},
+      {"name": "Loyalty", "id": "d49e-47a3-f5e9-f68c", "hidden": false, "import": true, "targetId": "0397-ebbd-9609-b338", "type": "selectionEntry"},
+      {"name": "Legion Rule", "id": "144b-7288-b03f-acee", "hidden": false, "import": true, "targetId": "e53d-d502-8042-3319", "type": "selectionEntry"}
+    ],
+    "infoLinks": [{"name": "Medusa Scales", "id": "3826-f545-ffa1-ad61", "hidden": false, "targetId": "4b18-3b84-edc2-362f", "type": "rule"}],
+    "selectionEntries": [
+      {
+        "name": "Ferrus Manus",
+        "id": "c4ae-a8e9-67c6-c45f",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 1,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "Primarch", "id": "e54c-1d55-f961-16a9", "hidden": false, "primary": true, "targetId": "6474-0ce3-6b5a-120c"},
+          {"name": "Epic Hero", "id": "9d33-c33d-5e5a-95d9", "hidden": false, "primary": false, "targetId": "4f3a-f0f7-6647-348d"},
+          {"name": "Character", "id": "f1ba-e1b7-4325-0bc3", "hidden": false, "primary": false, "targetId": "9cfd-1c32-585f-7d5c"},
+          {"name": "Monster", "id": "4471-73cf-3087-5df3", "hidden": false, "primary": false, "targetId": "9693-cf84-fe69-37a9"},
+          {"name": "Explosives", "id": "316e-61a1-90f9-9f78", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
+          {"name": "Faction: Iron Hands 30k", "id": "56c1-0b5d-e3c5-9d34", "hidden": false, "primary": false, "targetId": "5477-043f-7576-1fc4"},
+          {"name": "Ferrus Manus", "id": "7e06-24e3-6f7a-8ac3", "hidden": false, "primary": false, "targetId": "cf3b-3f41-dbb7-3d29"},
+          {"name": "Loyalist", "id": "47a8-c2f2-abf0-398d", "hidden": false, "primary": false, "targetId": "6385-b04f-2e5f-56dc"},
+          {"name": "Blank", "id": "b6d6-978e-6be4-51fb", "hidden": false, "primary": false, "targetId": "fb53-86a0-51fb-83a7"},
+          {"name": "Heavy", "id": "e3a4-2867-1ccf-4e47", "hidden": false, "primary": false, "targetId": "34ce-dbda-a41c-906d"}
+        ],
+        "constraints": [
+          {"id": "1ad5-2c85-b080-9041", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+          {
+            "id": "e860-ddb4-80fb-cf52",
+            "field": "51b2-306e-1021-d207",
+            "includeChildSelections": true,
+            "percentValue": true,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 25
+          }
+        ],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 465},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "entryLinks": [
+          {
+            "name": "Warlord",
+            "id": "ddc2-483e-1f9e-a355",
+            "hidden": false,
+            "import": true,
+            "targetId": "464b-cef6-1b60-4f88",
+            "type": "selectionEntry",
+            "constraints": [{"id": "1add-d85d-8254-22af", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Battlesmith x+",
+            "id": "a22a-3074-3625-4aed",
+            "hidden": false,
+            "targetId": "6b28-e707-4237-e961",
+            "type": "profile",
+            "modifiers": [
+              {"arg": "+x", "field": "9b8f-694b-e5e-b573", "type": "replace", "value": "2"},
+              {"arg": "+x", "field": "name", "type": "replace", "value": "2"},
+              {"arg": "(1)", "field": "9b8f-694b-e5e-b573", "type": "replace", "value": "(3)"}
+            ]
+          },
+          {"name": "Blank", "id": "cd0b-0b99-c88f-c126", "hidden": false, "targetId": "8f78-4e31-4d5b-95d7", "type": "rule"},
+          {"name": "Iron Soul (Blank level 3)", "id": "160a-9cbd-4175-2a20", "hidden": false, "targetId": "4ab7-3d6f-c62b-59a7", "type": "profile"},
+          {"name": "Sons of the Emperor", "id": "520d-952f-2b5f-04e9", "hidden": false, "targetId": "a83b-8c46-b484-53a5", "type": "profile"}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "8a2b-1eb8-b157-adcc",
+                "childName": "Traitor",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Ferrus Manus",
+            "id": "2408-39b4-7e4e-23d4",
+            "hidden": false,
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "M", "$text": "7\"", "typeId": "e703-ecb6-5ce7-aec1"},
+              {"name": "T", "$text": "8", "typeId": "d29d-cf75-fc2d-34a4"},
+              {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
+              {"name": "W", "$text": "7", "typeId": "750a-a2ec-90d3-21fe"},
+              {"name": "LD", "$text": "5+", "typeId": "58d2-b879-49c7-43bc"},
+              {"name": "OC", "$text": "3", "typeId": "bef7-942a-1a23-59f8"},
+              {"name": "InSv", "$text": "3+", "typeId": "55a7-5b54-c60d-11dc"},
+              {"name": "Base", "$text": "40mm", "typeId": "nr-base-size"}
+            ]
+          },
+          {
+            "name": "Sire of the Iron Hands",
+            "id": "9c57-e46f-2e06-cca7",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "This model must be your warlord and while withing 3\" of a friendly **Iron Hands Infantry** model this model gains **Lone Operative**.\n\n\nAll **Iron Hand** units gain **The flesh is weak but deeds endure** ability",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Weapons",
+            "id": "61f5-d0b0-541f-24bc",
+            "hidden": false,
+            "entryLinks": [
+              {
+                "name": "Servo-arm",
+                "id": "c8b7-8a73-8ee5-7cc3",
+                "hidden": false,
+                "import": true,
+                "targetId": "3863-425f-361e-ea84",
+                "type": "selectionEntry",
+                "constraints": [
+                  {"id": "bc27-dba1-dcc4-95a6", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                  {"id": "51b6-b4a0-bbb6-e123", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ]
+              },
+              {
+                "name": "Master-Crafted Graviton Shredder",
+                "id": "4307-2843-b286-786a",
+                "hidden": false,
+                "import": true,
+                "targetId": "50ea-39c7-3082-ff7e",
+                "type": "selectionEntry",
+                "constraints": [
+                  {"id": "0559-253c-d379-2c31", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                  {"id": "cffb-62fd-0c87-ed8c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ]
+              },
+              {
+                "name": "Master-Crafted Heavy Flamer",
+                "id": "dd24-937f-6fbc-5f07",
+                "hidden": false,
+                "import": true,
+                "targetId": "d1dc-bc37-1d1d-741a",
+                "type": "selectionEntry",
+                "constraints": [
+                  {"id": "2d98-d124-1d0f-4cde", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                  {"id": "98e8-b58c-0286-4322", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ]
+              },
+              {
+                "name": "Master-Crafted Plasma Blaster",
+                "id": "4cd8-2b2e-6165-6568",
+                "hidden": false,
+                "import": true,
+                "targetId": "2486-14f0-7a8b-2d18",
+                "type": "selectionEntry",
+                "constraints": [
+                  {"id": "857f-9b33-dafa-7117", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                  {"id": "12c4-671e-0670-2088", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ]
+              },
+              {
+                "name": "Forgebreaker",
+                "id": "6a79-363e-df7f-2386",
+                "hidden": false,
+                "import": true,
+                "targetId": "d77c-023e-d2b7-163c",
+                "type": "selectionEntry",
+                "constraints": [
+                  {"id": "ce71-db61-eee3-b1fc", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                  {"id": "b137-e449-62e0-87fd", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Medusa Immortals Squad",
+        "id": "d304-bb38-3595-844e",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 1,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Infantry", "id": "4a85-e136-55be-c4b8", "hidden": false, "primary": true, "targetId": "cf47-a0d7-7207-29dc"},
+          {"name": "Explosives", "id": "0ffb-1f3f-b437-1a94", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
+          {"name": "Faction: Iron Hands 30k", "id": "8d20-fe26-e290-54f3", "hidden": false, "primary": false, "targetId": "5477-043f-7576-1fc4"},
+          {"name": "Medusa Immortals Squad", "id": "7748-c01e-110e-ac30", "hidden": false, "primary": false, "targetId": "9d48-28a6-5b03-5811"},
+          {"name": "Bitter Duty", "id": "fc6a-a714-ea68-b6f9", "hidden": false, "primary": false, "targetId": "2078-fcee-2eba-3af8"}
+        ],
+        "constraints": [{"id": "cf5a-7c5e-d474-0d17", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 205},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "infoLinks": [
+          {"name": "Blank", "id": "5bb9-4859-8110-df0a", "hidden": false, "targetId": "8f78-4e31-4d5b-95d7", "type": "rule"},
+          {"name": "Feel No Pain 5+", "id": "2bcc-1a5a-fcdb-8e93", "hidden": false, "targetId": "5e10-6d62-2624-80a8", "type": "rule"},
+          {"name": "The flesh is weak but deeds endure", "id": "8dea-579a-d0af-38a1", "hidden": false, "targetId": "dedf-5773-e97a-8541", "type": "profile"},
+          {"name": "Medusa Scales", "id": "28b5-e429-0580-8a73", "hidden": false, "targetId": "4b18-3b84-edc2-362f", "type": "rule"},
+          {"name": "Cold Steel Will (Blank level 1)", "id": "8542-758a-5674-f4c7", "hidden": false, "targetId": "22ac-4224-ee41-26d9", "type": "profile"}
+        ],
+        "modifiers": [
+          {"affects": "self.entries.recursive.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1},
+          {"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "type": "increment", "value": 1},
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 205,
+            "conditions": [{"childId": "model", "childName": "model", "field": "selections", "scope": "self", "shared": true, "type": "atLeast", "value": 11}]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Immortal Sergeant",
+            "id": "972f-b1fb-ce4c-e52e",
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "categoryLinks": [{"name": "Sergeant", "id": "2640-4727-1988-3345", "hidden": false, "primary": false, "targetId": "1920-5c73-27b4-b612"}],
+            "constraints": [
+              {"id": "8a05-6e71-f67c-8167", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "f3f9-cb55-4043-929b", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "entryLinks": [
+              {
+                "name": "Boarding Sheild",
+                "id": "7daf-845d-c593-613a",
+                "hidden": false,
+                "import": true,
+                "targetId": "9f7d-8e18-3116-3e21",
+                "type": "selectionEntry",
+                "constraints": [
+                  {"id": "5024-e5c8-e476-c7e0", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                  {"id": "64dd-2375-59d9-5987", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ]
+              }
+            ],
+            "modifiers": [{"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "2337-daa1-6682-b110", "type": "increment", "value": 1}],
+            "profiles": [
+              {
+                "name": "Immortal Sergeant",
+                "id": "56bc-7d00-4458-8d8b",
+                "hidden": false,
+                "typeId": "c547-1836-d8a-ff4f",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "M", "$text": "5\"", "typeId": "e703-ecb6-5ce7-aec1"},
+                  {"name": "T", "$text": "5", "typeId": "d29d-cf75-fc2d-34a4"},
+                  {"name": "Sv", "$text": "3+", "typeId": "450-a17e-9d5e-29da"},
+                  {"name": "W", "$text": "2", "typeId": "750a-a2ec-90d3-21fe"},
+                  {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
+                  {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
+                  {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"},
+                  {"name": "Base", "$text": "32mm", "typeId": "nr-base-size"}
+                ]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Weapons",
+                "id": "767a-64ff-3a2b-7d0b",
+                "hidden": false,
+                "entryLinks": [
+                  {"name": "Fisticuffs (Power Armour)", "id": "b201-3665-8670-a608", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
+                ],
+                "selectionEntryGroups": [
+                  {
+                    "name": "Main Weapon",
+                    "id": "fb3f-f594-dcf6-09a5",
+                    "defaultSelectionEntryId": "7462-3d05-4d0c-60c7",
+                    "hidden": false,
+                    "constraints": [
+                      {"id": "2c2e-3d56-790c-21e9", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                      {"id": "53d4-4ccb-b474-9b64", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ],
+                    "entryLinks": [
+                      {"name": "Bolter", "id": "7462-3d05-4d0c-60c7", "hidden": false, "import": true, "targetId": "f82b-5483-aff6-7cce", "type": "selectionEntry"},
+                      {
+                        "name": "Volkite Charger",
+                        "id": "42ef-dbdf-b2ed-7b51",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "33d0-6ba7-0853-b43a",
+                        "type": "selectionEntry",
+                        "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}]
+                      },
+                      {"name": "Chainsword", "id": "9c31-8ec9-5185-93fe", "hidden": false, "import": true, "targetId": "63c7-4506-ca4e-e64a", "type": "selectionEntry"},
+                      {
+                        "name": "Thunder Hammer",
+                        "id": "c193-590e-071a-4a06",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "6a81-9e86-bdb9-1d22",
+                        "type": "selectionEntry",
+                        "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 20}],
+                        "modifiers": [{"affects": "profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "type": "increment", "value": 1}]
+                      },
+                      {
+                        "name": "Power Fist",
+                        "id": "c4fe-8569-fc7c-36e5",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "1f23-df82-9bea-2ebf",
+                        "type": "selectionEntry",
+                        "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 15}],
+                        "modifiers": [{"affects": "profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "type": "increment", "value": 1}]
+                      },
+                      {"name": "Power Weapons", "id": "5135-9030-4170-41dc", "hidden": false, "import": true, "targetId": "725f-c946-fdf2-fd33", "type": "selectionEntryGroup"}
+                    ]
+                  },
+                  {
+                    "name": "Pistol Weapon",
+                    "id": "6758-98b9-b7de-98f7",
+                    "defaultSelectionEntryId": "5b0e-8a04-f414-a0a7",
+                    "hidden": false,
+                    "constraints": [
+                      {"id": "73d0-d389-0baf-cf54", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                      {"id": "5f45-a980-9718-be0d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ],
+                    "entryLinks": [
+                      {"name": "Bolt Pistol", "id": "5b0e-8a04-f414-a0a7", "hidden": false, "import": true, "targetId": "959d-ac2c-f31c-5d8e", "type": "selectionEntry"},
+                      {
+                        "name": "Plasma Pistol",
+                        "id": "5255-3993-e19f-60ed",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "0cde-138a-6232-8dec",
+                        "type": "selectionEntry",
+                        "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}]
+                      },
+                      {
+                        "name": "Volkite Serpenta",
+                        "id": "2fa8-4697-41e4-c9c1",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "a5f3-04b2-bd9d-a1de",
+                        "type": "selectionEntry",
+                        "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 5}]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Immortals",
+            "id": "2182-29f3-0f9c-8aeb",
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {"id": "0860-9616-9ee3-f24e", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 9},
+              {"id": "2d45-8978-876c-4a55", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 19}
+            ],
+            "entryLinks": [
+              {
+                "name": "Boarding Sheild",
+                "id": "074f-943a-a28e-bdb3",
+                "hidden": false,
+                "import": true,
+                "targetId": "9f7d-8e18-3116-3e21",
+                "type": "selectionEntry",
+                "constraints": [
+                  {"id": "783b-8d42-fa7b-35f7", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                  {"id": "c62b-19a3-dc6a-68cc", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Immortals",
+                "id": "038b-7ad1-6101-4ca5",
+                "hidden": false,
+                "typeId": "c547-1836-d8a-ff4f",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "M", "$text": "5\"", "typeId": "e703-ecb6-5ce7-aec1"},
+                  {"name": "T", "$text": "5", "typeId": "d29d-cf75-fc2d-34a4"},
+                  {"name": "Sv", "$text": "3+", "typeId": "450-a17e-9d5e-29da"},
+                  {"name": "W", "$text": "2", "typeId": "750a-a2ec-90d3-21fe"},
+                  {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
+                  {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
+                  {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"},
+                  {"name": "Base", "$text": "32mm", "typeId": "nr-base-size"}
+                ]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Weapons",
+                "id": "dfcd-28fe-b9ed-86e3",
+                "hidden": false,
+                "entryLinks": [
+                  {"name": "Fisticuffs (Power Armour)", "id": "7330-d224-68c8-5463", "hidden": false, "import": true, "targetId": "8f00-3bc0-29d0-87f2", "type": "selectionEntry"}
+                ],
+                "selectionEntryGroups": [
+                  {
+                    "name": "Main Weapon",
+                    "id": "c2d9-2811-9caa-0644",
+                    "defaultSelectionEntryId": "c465-1989-672b-96b7",
+                    "hidden": false,
+                    "constraints": [
+                      {"id": "8e22-56c2-5988-ec0c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                      {"id": "bdc4-8c6e-40d4-f25d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ],
+                    "entryLinks": [
+                      {"name": "Bolter", "id": "c465-1989-672b-96b7", "hidden": false, "import": true, "targetId": "f82b-5483-aff6-7cce", "type": "selectionEntry"},
+                      {"name": "Chainsword", "id": "6540-6fcf-16b9-5322", "hidden": false, "import": true, "targetId": "63c7-4506-ca4e-e64a", "type": "selectionEntry"},
+                      {
+                        "name": "Volkite Charger",
+                        "id": "fb6b-8318-369e-ea2f",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "33d0-6ba7-0853-b43a",
+                        "type": "selectionEntry",
+                        "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 2}]
+                      }
+                    ],
+                    "selectionEntryGroups": [
+                      {
+                        "name": "Special Weapon",
+                        "id": "16b6-5b9b-812e-fea9",
+                        "hidden": false,
+                        "constraints": [
+                          {"id": "4848-2313-f8a7-12ed", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+                          {"id": "53bc-2e15-7c5a-cf6f", "field": "selections", "includeChildSelections": true, "scope": "unit-self", "shared": true, "type": "max", "value": 1}
+                        ],
+                        "entryLinks": [
+                          {
+                            "name": "Flamer",
+                            "id": "0de7-16bb-4a21-8e90",
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "18ca-821e-bf6d-a28d",
+                            "type": "selectionEntry",
+                            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 5}]
+                          },
+                          {
+                            "name": "Meltagun",
+                            "id": "8115-3997-3cb3-fcef",
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "d523-8b64-6ba8-d34b",
+                            "type": "selectionEntry",
+                            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 15}]
+                          },
+                          {
+                            "name": "Graviton Gun",
+                            "id": "e1df-689d-78fe-bf6e",
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "de22-9ca6-ae06-9c8e",
+                            "type": "selectionEntry",
+                            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 15}],
+                            "infoLinks": [{"name": "Heavy", "id": "3a65-5152-9a13-4285", "hidden": false, "targetId": "1202-10a8-78e9-4c67", "type": "rule"}],
+                            "modifiers": [
+                              {"affects": "profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1},
+                              {"affects": "profiles.Ranged Weapons", "field": "7f1b-8591-2fcf-d01c", "join": ", ", "type": "append", "value": "Heavy"}
+                            ]
+                          },
+                          {
+                            "name": "Lascutter",
+                            "id": "628d-863d-f50b-9888",
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "75d1-4d39-dd38-37c8",
+                            "type": "selectionEntry",
+                            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 15}]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Pistol Weapon",
+                    "id": "7044-37a5-f2b1-93a7",
+                    "defaultSelectionEntryId": "9ce6-eb82-399e-8bfb",
+                    "hidden": false,
+                    "constraints": [
+                      {"id": "6458-d266-d82b-b1fe", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                      {"id": "4b2b-589f-9e68-1496", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ],
+                    "entryLinks": [{"name": "Bolt Pistol", "id": "9ce6-eb82-399e-8bfb", "hidden": false, "import": true, "targetId": "959d-ac2c-f31c-5d8e", "type": "selectionEntry"}]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gorgon Terminator Squad",
+        "id": "99cf-b653-d2d7-f888",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 1,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "Infantry", "id": "5e9a-1f9f-a3aa-e7eb", "hidden": false, "primary": true, "targetId": "cf47-a0d7-7207-29dc"},
+          {"name": "Explosives", "id": "6d29-0b9d-826b-af59", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
+          {"name": "Gorgon", "id": "1cc9-200e-41f5-f538", "hidden": false, "primary": false, "targetId": "4141-ea4f-27c4-d304"},
+          {"name": "Terminator", "id": "ae0d-6517-b137-d50d", "hidden": false, "primary": false, "targetId": "740a-892c-8958-defa"},
+          {"name": "Faction: Iron Hands 30k", "id": "8f19-5847-ffe5-052d", "hidden": false, "primary": false, "targetId": "5477-043f-7576-1fc4"},
+          {"name": "Gorgon Terminator Squad", "id": "cac3-56c8-c014-27d0", "hidden": false, "primary": false, "targetId": "437d-e01b-efbf-b95e"}
+        ],
+        "constraints": [{"id": "aa92-c98b-bef4-2b61", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 200},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "infoLinks": [
+          {"name": "The flesh is weak but deeds endure", "id": "0b43-fe89-ad36-6d34", "hidden": false, "targetId": "dedf-5773-e97a-8541", "type": "profile"},
+          {"name": "Medusa Scales", "id": "1099-97f8-487f-bd02", "hidden": false, "targetId": "4b18-3b84-edc2-362f", "type": "rule"},
+          {"name": "Feel No Pain 5+", "id": "fd10-d0e5-d8e0-1baa", "hidden": false, "targetId": "5e10-6d62-2624-80a8", "type": "rule"},
+          {"name": "Blank", "id": "2927-85ed-2be2-3aff", "hidden": false, "targetId": "8f78-4e31-4d5b-95d7", "type": "rule"},
+          {"name": "Iron Fortitude (Blank level 1)", "id": "42d9-2136-0f49-5662", "hidden": false, "targetId": "3d7f-9a82-4b3b-f680", "type": "profile"}
+        ],
+        "modifiers": [
+          {"affects": "self.entries.recursive.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1},
+          {"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "type": "increment", "value": 1},
+          {
+            "field": "51b2-306e-1021-d207",
+            "type": "increment",
+            "value": 200,
+            "conditions": [{"childId": "model", "childName": "model", "field": "selections", "scope": "self", "shared": true, "type": "atLeast", "value": 6}]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Gorgon Hammerbeaer",
+            "id": "3944-abfa-ca63-ccb1",
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "categoryLinks": [{"name": "Sergeant", "id": "8368-7756-8236-af0d", "hidden": false, "primary": false, "targetId": "1920-5c73-27b4-b612"}],
+            "constraints": [
+              {"id": "d39b-dae0-2f1b-0b6e", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "2a2e-7922-b28b-b460", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "modifiers": [{"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "2337-daa1-6682-b110", "type": "increment", "value": 1}],
+            "profiles": [
+              {
+                "name": "Gorgon Hammerbeaer",
+                "id": "3b4d-b890-b16d-e147",
+                "hidden": false,
+                "typeId": "c547-1836-d8a-ff4f",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "M", "$text": "5\"", "typeId": "e703-ecb6-5ce7-aec1"},
+                  {"name": "T", "$text": "6", "typeId": "d29d-cf75-fc2d-34a4"},
+                  {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
+                  {"name": "W", "$text": "3", "typeId": "750a-a2ec-90d3-21fe"},
+                  {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
+                  {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
+                  {"name": "InSv", "$text": "5+", "typeId": "55a7-5b54-c60d-11dc"},
+                  {"name": "Base", "$text": "40mm", "typeId": "nr-base-size"}
+                ]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Weapons",
+                "id": "bcc9-e040-daca-5c7a",
+                "hidden": false,
+                "entryLinks": [
+                  {
+                    "name": "Thunder Hammer",
+                    "id": "9e3d-5db8-e16f-f96d",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6a81-9e86-bdb9-1d22",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {"id": "0931-132d-09bd-7624", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                      {"id": "4cac-ce5b-bb2e-4f3a", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ]
+                  }
+                ],
+                "selectionEntryGroups": [
+                  {
+                    "name": "Ranged Weapon",
+                    "id": "7ce4-d4a7-cc7e-3fd1",
+                    "defaultSelectionEntryId": "2857-da02-93c0-7ae6",
+                    "hidden": false,
+                    "constraints": [
+                      {"id": "a2ab-66e9-7472-d6e2", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                      {"id": "717a-8b8c-b22e-48f2", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ],
+                    "entryLinks": [
+                      {"name": "Combi-Bolter", "id": "2857-da02-93c0-7ae6", "hidden": false, "import": true, "targetId": "0195-c2fa-56aa-9582", "type": "selectionEntry"},
+                      {
+                        "name": "Combi-Weapon",
+                        "id": "e6cc-4529-c6f2-2dcb",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "6838-a43e-1af3-cfdd",
+                        "type": "selectionEntry",
+                        "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Gorgon Terminator",
+            "id": "beed-cf0e-5f02-3ceb",
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {"id": "dc12-17c8-f737-d3d7", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 4},
+              {"id": "6921-2254-32cb-4a26", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 9}
+            ],
+            "profiles": [
+              {
+                "name": "Gorgon Terminator",
+                "id": "f63a-7726-4e39-3ba0",
+                "hidden": false,
+                "typeId": "c547-1836-d8a-ff4f",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "M", "$text": "5\"", "typeId": "e703-ecb6-5ce7-aec1"},
+                  {"name": "T", "$text": "6", "typeId": "d29d-cf75-fc2d-34a4"},
+                  {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
+                  {"name": "W", "$text": "3", "typeId": "750a-a2ec-90d3-21fe"},
+                  {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
+                  {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
+                  {"name": "InSv", "$text": "5+", "typeId": "55a7-5b54-c60d-11dc"},
+                  {"name": "Base", "$text": "40mm", "typeId": "nr-base-size"}
+                ]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Weapons",
+                "id": "aa5b-4cab-a905-517e",
+                "hidden": false,
+                "entryLinks": [
+                  {
+                    "name": "Twin-Lightning Claws",
+                    "id": "45ac-ed1b-3f05-75d3",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "6138-cb05-c38a-d295",
+                    "type": "selectionEntry",
+                    "constraints": [{"id": "ffc2-8ecb-edc0-a781", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                    "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}]
+                  }
+                ],
+                "selectionEntryGroups": [
+                  {
+                    "name": "Ranged Weapon",
+                    "id": "16d3-af74-1027-aa41",
+                    "defaultSelectionEntryId": "f800-979a-f83f-523e",
+                    "hidden": false,
+                    "constraints": [
+                      {"id": "4c42-0f31-29bc-9d89", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                      {"id": "420c-9d05-672e-0418", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ],
+                    "entryLinks": [
+                      {"name": "Combi-Bolter", "id": "f800-979a-f83f-523e", "hidden": false, "import": true, "targetId": "0195-c2fa-56aa-9582", "type": "selectionEntry"},
+                      {
+                        "name": "Combi-Weapon",
+                        "id": "610d-1f41-a307-b628",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "6838-a43e-1af3-cfdd",
+                        "type": "selectionEntry",
+                        "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}]
+                      }
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "hidden",
+                        "type": "set",
+                        "value": true,
+                        "conditions": [
+                          {"childId": "6138-cb05-c38a-d295", "childName": "Twin-Lightning Claws", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}
+                        ]
+                      }
+                    ],
+                    "selectionEntryGroups": [
+                      {
+                        "name": "Heavy Weapon",
+                        "id": "cffc-8f24-24ab-21f5",
+                        "hidden": false,
+                        "constraints": [{"id": "3331-469b-9a0d-d42f", "field": "selections", "includeChildSelections": true, "scope": "unit-self", "shared": true, "type": "max", "value": 1}],
+                        "entryLinks": [
+                          {
+                            "name": "Heavy Flamer",
+                            "id": "2d8e-2119-aff1-3bbf",
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "9d3e-c90c-6a12-a86f",
+                            "type": "selectionEntry",
+                            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 5}]
+                          },
+                          {
+                            "name": "Reaper Autocannon",
+                            "id": "18ed-ee89-3e7f-dc37",
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "2c9b-11a3-83a9-bf0c",
+                            "type": "selectionEntry",
+                            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 15}]
+                          },
+                          {
+                            "name": "Plasma Blaster",
+                            "id": "7f92-0638-29cb-3c46",
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "27d0-ab92-57f9-0a22",
+                            "type": "selectionEntry",
+                            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 15}]
+                          },
+                          {
+                            "name": "Graviton Gun",
+                            "id": "5e5b-40b9-a4f4-6a95",
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "de22-9ca6-ae06-9c8e",
+                            "type": "selectionEntry",
+                            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 15}]
+                          }
+                        ],
+                        "modifiers": [
+                          {
+                            "field": "3331-469b-9a0d-d42f",
+                            "type": "increment",
+                            "value": 1,
+                            "conditions": [{"childId": "model", "childName": "model", "field": "selections", "scope": "unit-self", "shared": true, "type": "atLeast", "value": 4}]
+                          },
+                          {
+                            "field": "3331-469b-9a0d-d42f",
+                            "type": "increment",
+                            "value": 1,
+                            "conditions": [{"childId": "model", "childName": "model", "field": "selections", "scope": "root-entry-self", "shared": true, "type": "atLeast", "value": 7}]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Melee Weapon",
+                    "id": "1fae-b10f-fc13-06d1",
+                    "defaultSelectionEntryId": "db6e-5e61-def1-6e38",
+                    "hidden": false,
+                    "constraints": [
+                      {"id": "2064-9ace-c7f2-58b3", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                      {"id": "817b-e130-c42d-d980", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ],
+                    "entryLinks": [
+                      {
+                        "name": "Lightning Claw",
+                        "id": "2843-9b94-722d-29aa",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "ee57-cdd8-50a4-9aa8",
+                        "type": "selectionEntry",
+                        "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 5}]
+                      },
+                      {
+                        "name": "Power Fist",
+                        "id": "34a2-8e9c-2b26-48e1",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "1f23-df82-9bea-2ebf",
+                        "type": "selectionEntry",
+                        "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}]
+                      },
+                      {
+                        "name": "Chainfist",
+                        "id": "fa53-4881-203c-737d",
+                        "hidden": false,
+                        "import": true,
+                        "targetId": "6d78-58ee-9119-b2e0",
+                        "type": "selectionEntry",
+                        "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 15}]
+                      },
+                      {"name": "Power Weapons", "id": "66b7-1d22-b6a5-45cb", "hidden": false, "import": true, "targetId": "725f-c946-fdf2-fd33", "type": "selectionEntryGroup"}
+                    ],
+                    "modifiers": [
+                      {
+                        "field": "hidden",
+                        "type": "set",
+                        "value": true,
+                        "conditions": [
+                          {"childId": "6138-cb05-c38a-d295", "childName": "Twin-Lightning Claws", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "The flesh is weak but deeds endure",
+        "id": "dedf-5773-e97a-8541",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+          {
+            "name": "Description",
+            "$text": "This unit has a **[Feel No Pain 6+]** or if it natural has one [Not including ones that only happen for **ranged attacks**, **Psychic attacks** or **temporary** ones] improve it by 1 instead.",
+            "typeId": "9b8f-694b-e5e-b573"
+          }
+        ],
+        "modifiers": [
+          {
+            "arg": "This unit has a **[Feel No Pain 6+]** or if it natural has one [Not including ones that only happen for **ranged attacks**, **Psychic attacks** or **temporary** ones] improve it by 1 instead.",
+            "field": "9b8f-694b-e5e-b573",
+            "type": "replace",
+            "value": "At the end of your **turn** roll a D6 for each model in this unit that has this ability that is missing a wound. On each 5+ restore 1 wound. If it already has a ability that happens at the end of the turn that restores a wound by dice roll improve the rolls for that by 1 instead.",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "dbd4-63-af05-998",
+                    "childName": "Vehicle",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "self",
+                    "shared": true,
+                    "traverseAssociationGroup": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "6dda-e157-334d-e93a",
+                    "childName": "Walker",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "self",
+                    "shared": true,
+                    "traverseAssociationGroup": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "14a0-40c9-2748-ae6e",
+                    "childName": "Mounted",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "self",
+                    "shared": true,
+                    "traverseAssociationGroup": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "c4ae-a8e9-67c6-c45f",
+                "childName": "Ferrus Manus",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "lessThan",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Detachment",
+        "id": "186f-2418-9ae2-4011",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Configuration", "id": "6703-2975-64ca-decc", "hidden": false, "primary": true, "targetId": "4ac9-fd30-1e3d-b249"}],
+        "constraints": [
+          {
+            "id": "6ea9-56fd-11e0-dc2d",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "min",
+            "value": 1
+          },
+          {
+            "id": "1089-97d8-a037-9956",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "entryLinks": [{"name": "Common Detachments", "id": "1468-54a0-25f9-4b82", "hidden": false, "import": true, "targetId": "1a9b-dc90-4bb8-6fee", "type": "selectionEntryGroup"}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "cac3-71d1-ea4b-795d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legion Rule",
+        "id": "e53d-d502-8042-3319",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Configuration", "id": "baea-04cc-500f-5ca9", "hidden": false, "primary": true, "targetId": "4ac9-fd30-1e3d-b249"}],
+        "constraints": [
+          {
+            "id": "8500-23b1-0583-11b1",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "min",
+            "value": 1
+          },
+          {
+            "id": "b9e7-566c-666e-cf35",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "entryLinks": [{"name": "X: Iron Hands", "id": "bd72-0dd5-a4c7-5653", "hidden": false, "import": true, "targetId": "511d-b1ff-2e23-9b83", "type": "selectionEntry"}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "cac3-71d1-ea4b-795d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "scope": "force",
+                "shared": true,
+                "type": "instanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

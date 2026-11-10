@@ -36,6 +36,20 @@
             "typeId": "9b8f-694b-e5e-b573"
           }
         ]
+      },
+      {
+        "name": "Ravening Madmen",
+        "id": "0911-a2ce-31b8-7ef0",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+          {
+            "name": "Description",
+            "$text": "All incoming **melee attacks** have -1 strength into models with this ability and this model can not hit in **melee** on anything more then a 3+",
+            "typeId": "9b8f-694b-e5e-b573"
+          }
+        ]
       }
     ],
     "sharedSelectionEntries": [
@@ -971,6 +985,179 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Blessed Auto-Simulacra",
+        "id": "e62e-5847-af97-41b0",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 10,
+        "type": "upgrade",
+        "constraints": [{"id": "4992-bbcf-69a5-92ef", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [{"childId": "dbd4-63-af05-998", "childName": "Vehicle", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Blessed Auto-Simulacra",
+            "id": "c20c-6892-8ff1-4c75",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "At the end of the your turn if a model with this ability is below starting wounds roll 1D6. On a 6+ rstore 1 wound (This can be buffed by **Medusa Scales**)",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gorgon Armour",
+        "id": "7c79-c99b-bd07-bc58",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 10,
+        "type": "upgrade",
+        "infoLinks": [{"name": "Feel No Pain 5+", "id": "499c-a9bc-ea8a-3cb1", "hidden": false, "targetId": "5e10-6d62-2624-80a8", "type": "rule"}],
+        "modifiers": [
+          {"affects": "self.entries.recursive.profiles.Unit", "field": "55a7-5b54-c60d-11dc", "scope": "parent", "type": "set", "value": "5+"},
+          {"affects": "self.entries.recursive", "field": "category", "type": "add", "value": "4141-ea4f-27c4-d304"},
+          {"affects": "self.entries.recursive", "field": "category", "type": "remove", "value": "163e-4731-8e1a-b26b"}
+        ]
+      },
+      {
+        "name": "Aramatus Necrotechnika",
+        "id": "194c-f143-5780-a671",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 10,
+        "type": "upgrade",
+        "constraints": [{"id": "bd80-48bf-3df0-484d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "costs": [
+          {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 50},
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "dbd4-63-af05-998",
+                    "childName": "Vehicle",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "c619-2086-bbcf-69c9",
+                    "childName": "Fly",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Aramatus Necrotechnika",
+            "id": "f5d6-a377-d3b4-08de",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "When a model is removed as a **casualtie** after you remove it before removing the next one roll 1D6 and on a 6 this model restores 1 wound. All **models** withing 6\" have -1 to **leadership rolls**",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Toxin Bomb",
+        "id": "92f7-e6ac-5dd6-9f44",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 14,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Toxin Bomb",
+            "id": "c6f6-fde9-5ce7-7df8",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "After this unit has been **charged** roll a D6 for each model in the unit that **charged** it. For each 1 the unit that **charged** this unit suffer 1 **mortal wound**",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Warsmith",
+        "id": "6a52-900e-65d4-2f1b",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 4,
+        "type": "upgrade",
+        "modifiers": [
+          {"field": "name", "scope": "model", "type": "set", "value": "Warsmith"},
+          {"affects": "profiles.Unit", "field": "name", "scope": "model", "type": "set", "value": "Warsmith"}
+        ]
+      },
+      {
+        "name": "Beserker",
+        "id": "77b6-5d2e-32d7-b6e9",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 12,
+        "type": "upgrade",
+        "constraints": [{"id": "79ef-eca7-88a0-1291", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "infoLinks": [{"name": "Ravening Madmen", "id": "2f4b-2784-ec66-f5e1", "hidden": false, "targetId": "0911-a2ce-31b8-7ef0", "type": "profile"}],
+        "modifiers": [{"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "2337-daa1-6682-b110", "type": "increment", "value": 1}]
       }
     ],
     "sharedSelectionEntryGroups": [
@@ -1030,73 +1217,30 @@
                   }
                 ]
               }
-            ],
-            "selectionEntries": [
+            ]
+          },
+          {
+            "name": "Iron Hands Wargear",
+            "id": "fe79-14f7-b00c-f7d2",
+            "hidden": false,
+            "import": true,
+            "targetId": "20a9-3324-0118-9510",
+            "type": "selectionEntryGroup",
+            "modifiers": [
               {
-                "name": "Warsmith",
-                "id": "fd25-c060-ad37-0f85",
-                "hidden": false,
-                "import": true,
-                "type": "upgrade",
-                "constraints": [
-                  {"id": "1105-4597-a909-ec48", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 1},
-                  {"id": "48b7-9537-9e9c-44ad", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-                ],
-                "costs": [
-                  {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 20},
-                  {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
-                  {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
-                  {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
-                  {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
-                  {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
-                  {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
-                  {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
-                ],
-                "entryLinks": [
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
                   {
-                    "name": "Cortex Contoller",
-                    "id": "f218-9f22-2f5c-dc32",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "03dc-7b6a-a279-b913",
-                    "type": "selectionEntry",
-                    "constraints": [
-                      {"id": "f0c1-3d16-c4fc-3141", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "d83c-abef-dfdd-efe1", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-                    ]
-                  },
-                  {
-                    "name": "Servo-arm",
-                    "id": "adcc-ccaa-5f9c-5f0c",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "3863-425f-361e-ea84",
-                    "type": "selectionEntry",
-                    "constraints": [
-                      {"id": "0868-34e0-b53b-574d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "1a7f-c734-7cfa-7fb3", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-                    ]
+                    "childId": "5477-043f-7576-1fc4",
+                    "childName": "Faction: Iron Hands 30k",
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
                   }
-                ],
-                "infoLinks": [
-                  {"name": "Master of Automata", "id": "8432-9696-6adb-fda2", "hidden": false, "targetId": "ef4d-8ac0-dafa-6942", "type": "profile"},
-                  {
-                    "name": "Battlesmith x+",
-                    "id": "e318-da00-f1f4-5019",
-                    "hidden": false,
-                    "targetId": "6b28-e707-4237-e961",
-                    "type": "profile",
-                    "modifiers": [{"arg": "x", "field": "name", "type": "replace", "value": "3"}, {"arg": "x", "field": "9b8f-694b-e5e-b573", "type": "replace", "value": "3"}]
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "field": "hidden",
-                    "type": "set",
-                    "value": true,
-                    "conditions": [{"childId": "2d7f-1892-2fd0-e29c", "childName": "Captain", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}]
-                  },
-                  {"arg": "Praetor", "field": "name", "scope": "parent", "type": "replace", "value": "Warsmith"}
                 ]
               }
             ]
@@ -1465,6 +1609,7 @@
         "name": "Alpha Legion Wargear",
         "id": "750a-4c76-c215-c98d",
         "hidden": false,
+        "sortIndex": 20,
         "entryLinks": [
           {
             "name": "Power Dagger",
@@ -1536,6 +1681,7 @@
         "name": "Night lord Wargear",
         "id": "0988-273f-3bf3-81c9",
         "hidden": false,
+        "sortIndex": 8,
         "entryLinks": [
           {
             "name": "Prey Sight",
@@ -1626,6 +1772,7 @@
         "name": "Raven Gaurd Wargear",
         "id": "c8a2-f7bb-32d4-60ba",
         "hidden": false,
+        "sortIndex": 19,
         "entryLinks": [
           {
             "name": "Cameleoline",
@@ -1669,6 +1816,7 @@
         "name": "Salamander Wargear",
         "id": "6408-abf0-3ac1-38cb",
         "hidden": false,
+        "sortIndex": 18,
         "modifiers": [
           {
             "field": "hidden",
@@ -1821,6 +1969,7 @@
         "name": "Thousand Sons Wargear",
         "id": "95c9-6b29-e892-aa0e",
         "hidden": false,
+        "sortIndex": 15,
         "entryLinks": [
           {
             "name": "Minor Arcana",
@@ -2029,7 +2178,313 @@
           }
         ]
       },
-      {"name": "Iron Warrior Wargear", "id": "7231-23c0-e9cd-48f1", "hidden": false}
+      {
+        "name": "Iron Warrior Wargear",
+        "id": "7231-23c0-e9cd-48f1",
+        "hidden": false,
+        "sortIndex": 4,
+        "selectionEntries": [
+          {
+            "name": "Warsmith",
+            "id": "fd25-c060-ad37-0f85",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "1105-4597-a909-ec48", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 1},
+              {"id": "48b7-9537-9e9c-44ad", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "costs": [
+              {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 20},
+              {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+              {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+              {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+              {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+              {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+              {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+              {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+            ],
+            "entryLinks": [
+              {
+                "name": "Cortex Contoller",
+                "id": "f218-9f22-2f5c-dc32",
+                "hidden": false,
+                "import": true,
+                "targetId": "03dc-7b6a-a279-b913",
+                "type": "selectionEntry",
+                "constraints": [
+                  {"id": "f0c1-3d16-c4fc-3141", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                  {"id": "d83c-abef-dfdd-efe1", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ]
+              },
+              {
+                "name": "Servo-arm",
+                "id": "adcc-ccaa-5f9c-5f0c",
+                "hidden": false,
+                "import": true,
+                "targetId": "3863-425f-361e-ea84",
+                "type": "selectionEntry",
+                "constraints": [
+                  {"id": "0868-34e0-b53b-574d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                  {"id": "1a7f-c734-7cfa-7fb3", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ]
+              }
+            ],
+            "infoLinks": [
+              {"name": "Master of Automata", "id": "8432-9696-6adb-fda2", "hidden": false, "targetId": "ef4d-8ac0-dafa-6942", "type": "profile"},
+              {
+                "name": "Battlesmith x+",
+                "id": "e318-da00-f1f4-5019",
+                "hidden": false,
+                "targetId": "6b28-e707-4237-e961",
+                "type": "profile",
+                "modifiers": [{"arg": "x", "field": "name", "type": "replace", "value": "3"}, {"arg": "x", "field": "9b8f-694b-e5e-b573", "type": "replace", "value": "3"}]
+              }
+            ],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [{"childId": "2d7f-1892-2fd0-e29c", "childName": "Captain", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}]
+              },
+              {"arg": "Praetor", "field": "name", "scope": "parent", "type": "replace", "value": "Warsmith"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Iron Hands Wargear",
+        "id": "20a9-3324-0118-9510",
+        "hidden": false,
+        "sortIndex": 10,
+        "entryLinks": [
+          {"name": "Blessed Auto-Simulacra", "id": "9d1a-b1a5-cb4f-b039", "hidden": false, "import": true, "targetId": "e62e-5847-af97-41b0", "type": "selectionEntry"},
+          {
+            "name": "Cyber-Familiar",
+            "id": "b234-55e4-152e-5563",
+            "hidden": false,
+            "import": true,
+            "targetId": "2fc4-d1ba-6753-9dc5",
+            "type": "selectionEntry",
+            "constraints": [{"id": "6e89-0678-73a9-6adc", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 20}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                      {"childId": "1920-5c73-27b4-b612", "childName": "Sergeant", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Gorgon Armour",
+            "id": "805a-0498-7e2e-5ef6",
+            "hidden": true,
+            "import": true,
+            "targetId": "7c79-c99b-bd07-bc58",
+            "type": "selectionEntry",
+            "constraints": [{"id": "4d9f-21dc-ae48-edb7", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": false,
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {"childId": "163e-4731-8e1a-b26b", "childName": "Cataphracii", "field": "selections", "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1},
+                      {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {"name": "Aramatus Necrotechnika", "id": "ad3c-33aa-75be-4bfd", "hidden": false, "import": true, "targetId": "194c-f143-5780-a671", "type": "selectionEntry"}
+        ]
+      },
+      {
+        "name": "Death Gaurd Wargear",
+        "id": "c770-a71e-86c4-a341",
+        "hidden": false,
+        "sortIndex": 14,
+        "entryLinks": [
+          {
+            "name": "Toxin Bomb",
+            "id": "9f59-a207-5864-c90f",
+            "hidden": false,
+            "import": true,
+            "targetId": "92f7-e6ac-5dd6-9f44",
+            "type": "selectionEntry",
+            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                          {"childId": "1920-5c73-27b4-b612", "childName": "Sergent", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1}
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "8a2b-1eb8-b157-adcc",
+                        "childName": "Traitor",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "force",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "15c4-e42a-41d1-5ded",
+                "childName": "Faction: Death Gaurd",
+                "field": "selections",
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "World Eater",
+        "id": "293b-857f-2dfe-bb51",
+        "hidden": false,
+        "sortIndex": 12,
+        "entryLinks": [
+          {
+            "name": "Beserker",
+            "id": "246a-5a5d-ebb1-c6de",
+            "hidden": false,
+            "import": true,
+            "targetId": "77b6-5d2e-32d7-b6e9",
+            "type": "selectionEntry",
+            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 20}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {"childId": "9cfd-1c32-585f-7d5c", "childName": "Character", "field": "selections", "scope": "ancestor", "shared": true, "type": "notInstanceOf", "value": 1},
+                      {"childId": "13bf-2bee-3ae0-b414", "childName": "Psyker", "field": "selections", "scope": "ancestor", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "02d7-1d5e-9990-f157",
+                "childName": "Faction: World Eater",
+                "field": "selections",
+                "scope": "ancestor",
+                "shared": true,
+                "type": "notInstanceOf",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mobility",
+        "id": "d90d-abcf-bee0-a1c0",
+        "hidden": false,
+        "constraints": [{"id": "8e7b-30df-b10a-bdcf", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "HQ Scimitar Jetbike",
+            "id": "ebf9-9c3a-cee4-5288",
+            "hidden": false,
+            "import": true,
+            "targetId": "acd7-3c50-de68-4752",
+            "type": "selectionEntry",
+            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 30}]
+          },
+          {
+            "name": "HQ Spatha Combat Bike",
+            "id": "2795-1b88-5ac8-0246",
+            "hidden": false,
+            "import": true,
+            "targetId": "9a97-cfc7-7f01-bcb2",
+            "type": "selectionEntry",
+            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}]
+          },
+          {
+            "name": "Warhawk Jump Pack",
+            "id": "6892-760d-8093-b75a",
+            "hidden": false,
+            "import": true,
+            "targetId": "6636-c0d5-53a8-36b5",
+            "type": "selectionEntry",
+            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}]
+          },
+          {
+            "name": "Corvid Pattern Jump Pack",
+            "id": "b1b8-4290-f449-881d",
+            "hidden": false,
+            "import": true,
+            "targetId": "23df-6a8d-c752-b8fe",
+            "type": "selectionEntry",
+            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 20}]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [{"childId": "34ce-dbda-a41c-906d", "childName": "Heavy", "field": "selections", "scope": "parent", "shared": true, "type": "atLeast", "value": 1}]
+          }
+        ]
+      }
     ]
   }
 }

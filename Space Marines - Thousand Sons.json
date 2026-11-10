@@ -43,1322 +43,8 @@
       {"name": "Sekhetar Robots", "id": "5d89-5f62-bf9f-d4a8", "hidden": false}
     ],
     "entryLinks": [
-      {
-        "name": "Legion Assault Squad",
-        "id": "fce2-5b2c-d6c4-5c18",
-        "hidden": false,
-        "import": true,
-        "targetId": "ee1e-7c3c-d075-ccfb",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "9d6b-5ce5-4826-6087", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "6631-8995-f262-1b5a", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"},
-          {"name": "Psyker", "id": "b5f0-c5ee-6c8b-8bdc", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Breacher Squad",
-        "id": "bdce-bc02-68ec-59b2",
-        "hidden": false,
-        "import": true,
-        "targetId": "e2bb-808a-d22a-b21c",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "e062-543f-2da7-1a09", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "cb3b-2340-bfc0-1205", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Tactical Squad",
-        "id": "d86f-495b-d9f2-7e8f",
-        "hidden": false,
-        "import": true,
-        "targetId": "d7d2-ed0b-87cb-f5bd",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "d701-7f4c-0e02-054e", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "a269-3066-dbc9-bd65", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Despoiler Squad",
-        "id": "8ec5-0b9c-8255-05d3",
-        "hidden": false,
-        "import": true,
-        "targetId": "6174-a4fd-ad46-ddfa",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "8e4c-b960-0652-bb0d", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "80f9-3c2c-cfaa-47a1", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {"name": "Davinite Lodge Priest", "id": "3e39-2e3c-7ed3-f9ed", "hidden": false, "import": true, "targetId": "508b-3db2-00f4-01bb", "type": "selectionEntry"},
-      {"name": "Exponditionary Navigator", "id": "de0d-4b50-cca5-ae74", "hidden": false, "import": true, "targetId": "5765-8056-9276-b9e8", "type": "selectionEntry"},
-      {
-        "name": "Legion Apothecary",
-        "id": "b2a9-0b3b-2e54-4378",
-        "hidden": false,
-        "import": true,
-        "targetId": "5597-c7f9-c3ee-290a",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "26c4-af1b-0198-cb94", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "ef9e-c8ec-2085-54ae", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Armistos",
-        "id": "4ffd-61b1-68a6-0f06",
-        "hidden": false,
-        "import": true,
-        "targetId": "623e-1034-b4cc-8b96",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "d4ff-db69-4337-0d07", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "0060-f332-729b-ea7c", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Cataphractii Centurion",
-        "id": "88ca-bab3-4f11-e4a0",
-        "hidden": false,
-        "import": true,
-        "targetId": "28bf-8fe9-1cec-30ac",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "8284-1f09-9aa0-a9b2", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "e92a-0fff-8e57-50a6", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Cataphractii Champion",
-        "id": "1d23-f4f4-1f70-972f",
-        "hidden": false,
-        "import": true,
-        "targetId": "ce57-3967-c54e-fdf9",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "721c-ae47-a91c-7152", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "1ca3-8b89-701a-f196", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Cataphractii Chaplin",
-        "id": "75e2-1779-d968-e25b",
-        "hidden": false,
-        "import": true,
-        "targetId": "9c84-4621-d522-c8d5",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "0e91-d4eb-2fa6-164c", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "c8d0-5c6a-6321-2df3", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Cataphractii Esoterist",
-        "id": "72eb-2161-e407-1983",
-        "hidden": false,
-        "import": true,
-        "targetId": "dd6a-027c-5acd-4779",
-        "type": "selectionEntry",
-        "infoLinks": [{"name": "Cult Arcana", "id": "bc0d-6833-124b-175a", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"}],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Cataphractii Forge Lord",
-        "id": "8c00-2ff6-5f7e-0ab5",
-        "hidden": false,
-        "import": true,
-        "targetId": "d7bc-ba47-227a-ca16",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "1229-df8b-6d3f-dcf2", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "c0d2-1a83-98a1-5ac6", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Cataphractii Herald",
-        "id": "72a6-63e5-32a5-66f3",
-        "hidden": false,
-        "import": true,
-        "targetId": "a00b-e416-84ab-4700",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "0894-c869-226d-608f", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "635e-ea7d-6ea0-1621", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Cataphractii Librarian",
-        "id": "ceb9-36d6-1771-888c",
-        "hidden": false,
-        "import": true,
-        "targetId": "3187-3d1d-c6a5-6dab",
-        "type": "selectionEntry",
-        "infoLinks": [{"name": "Cult Arcana", "id": "de0d-2dec-005c-d46c", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"}],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Cataphractii Mortifactor",
-        "id": "1dd8-8a37-cebb-2c11",
-        "hidden": false,
-        "import": true,
-        "targetId": "00b3-cab0-3ed0-46e7",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "361e-81f1-8107-7f86", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "7d9c-d2e0-b0cc-2082", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Cataphractii Praetor",
-        "id": "154d-97a6-6ab5-37e9",
-        "hidden": false,
-        "import": true,
-        "targetId": "998f-7eb2-26ee-2a84",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "44f1-6fbd-9d1a-8b5a", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "2950-68c5-1ea2-68db", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Cataphractii Primus Medicae",
-        "id": "6810-645c-b4dc-e50f",
-        "hidden": false,
-        "import": true,
-        "targetId": "56c0-45e5-91ca-5b8a",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "ecc1-22c7-81c6-0ca1", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "602b-9995-0444-7f15", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Cataphractii Siege Breaker",
-        "id": "c1bd-9eb1-2d9a-5ceb",
-        "hidden": false,
-        "import": true,
-        "targetId": "eaff-53c9-a602-2479",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "1e8e-81b1-2436-0d45", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "4d6b-de08-97c9-6dfc", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Cataphractii Warmonger",
-        "id": "bd21-5a75-6969-44b7",
-        "hidden": false,
-        "import": true,
-        "targetId": "34e9-c499-a5b2-66a9",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "4bcc-b411-893b-43ff", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "ec05-58b4-548e-ee71", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Centurion",
-        "id": "06d7-8927-d598-33f2",
-        "hidden": false,
-        "import": true,
-        "targetId": "89d9-05e4-07bb-4cdf",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "032b-8fcd-77ef-3d61", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "1ec9-e925-9328-98d1", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Champion",
-        "id": "abb2-c12a-af2b-8c66",
-        "hidden": false,
-        "import": true,
-        "targetId": "8114-d185-a4ee-07cb",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "1639-975a-261a-51f9", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "d88d-6ab5-ee1b-4e20", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Chaplin",
-        "id": "d67d-029d-0b07-4410",
-        "hidden": false,
-        "import": true,
-        "targetId": "3ce3-e3c9-a85b-0e53",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "36cf-f210-5b83-5fbf", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "45d0-e07e-3717-6bb1", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Damocles Command Rhino",
-        "id": "82c5-51bb-32a8-0bb1",
-        "hidden": false,
-        "import": true,
-        "targetId": "7a1b-9d51-180e-a16b",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "7b23-050f-a03e-c937", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "3b16-0eed-b617-e4e7", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Delegatus",
-        "id": "1b4b-cc2e-0d73-7e76",
-        "hidden": false,
-        "import": true,
-        "targetId": "1713-0c7f-75d6-8cd6",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "fc0d-19d6-9980-0abd", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "bfca-1d44-2ed9-abba", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Esoterist",
-        "id": "8952-2cc8-3c94-8082",
-        "hidden": false,
-        "import": true,
-        "targetId": "68c1-fc4a-296a-c658",
-        "type": "selectionEntry",
-        "infoLinks": [{"name": "Cult Arcana", "id": "49cf-c3a7-9006-db10", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"}],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Forge Lord",
-        "id": "e8ff-4ec4-756e-67e7",
-        "hidden": false,
-        "import": true,
-        "targetId": "531c-d5af-2f78-f4ca",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "5e4a-a02c-3c1c-3f6c", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "76e5-01b1-5116-3bed", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Herald",
-        "id": "b2df-e982-6e82-e239",
-        "hidden": false,
-        "import": true,
-        "targetId": "0cda-4f5c-8167-21e6",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "72e1-f5da-ba07-611c", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "1f39-b86c-68f5-0ef5", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Librarian",
-        "id": "a09d-62da-f618-320b",
-        "hidden": false,
-        "import": true,
-        "targetId": "2501-499b-4f8e-69ea",
-        "type": "selectionEntry",
-        "infoLinks": [{"name": "Cult Arcana", "id": "30c7-f0be-07f0-fa81", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"}],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Master of Signals",
-        "id": "08f1-5362-e586-b5dc",
-        "hidden": false,
-        "import": true,
-        "targetId": "32d7-9e1e-45bb-f13e",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "99f4-2457-522a-6d79", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "ef7e-b79d-2405-2f31", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Moritat",
-        "id": "ad96-1446-9acf-10d3",
-        "hidden": false,
-        "import": true,
-        "targetId": "24ee-9f1e-ff3b-50f7",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "0653-37b1-9504-52a2", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "b2c8-dfd2-58ed-75a2", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Mortifactor",
-        "id": "ecae-cf72-d471-66af",
-        "hidden": false,
-        "import": true,
-        "targetId": "12fa-b8c1-64ca-eab5",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "28b0-afc4-8018-d911", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "39ce-96d4-8226-87cc", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Optae",
-        "id": "c5c7-1a64-4974-ba2c",
-        "hidden": false,
-        "import": true,
-        "targetId": "011a-f45d-4771-9dfe",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "02e6-3144-def5-4188", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "12eb-0a94-5402-b101", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Overseer",
-        "id": "c876-cf0b-4c95-bfcd",
-        "hidden": false,
-        "import": true,
-        "targetId": "4726-b22c-efb0-cc88",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "294e-a87b-4fb2-1bb6", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "ac77-105b-108e-87e8", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Pathfinder",
-        "id": "2e9c-715f-3c9f-efa9",
-        "hidden": false,
-        "import": true,
-        "targetId": "e43d-8e9e-7bad-3a4f",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "26f6-9eb4-c985-06c5", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "1cf2-6fba-064a-3a40", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Praetor",
-        "id": "93cc-a184-0081-2e03",
-        "hidden": false,
-        "import": true,
-        "targetId": "d21d-b83b-addc-90d1",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "6f04-adc6-7113-fbf2", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "e6bd-f052-a5a0-0245", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Praevian",
-        "id": "2e5b-7100-5a50-f323",
-        "hidden": false,
-        "import": true,
-        "targetId": "6eeb-a277-d3db-8d47",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "2d67-7af6-b5fb-4178", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "5731-eb56-5811-b75e", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Predator Master of Armour",
-        "id": "79b9-2708-5a36-50aa",
-        "hidden": false,
-        "import": true,
-        "targetId": "34e4-f19f-e0dd-53b1",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "7ce3-571e-6e6c-a096", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "1efa-b423-8f66-984e", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Primus Medicae",
-        "id": "5862-2c88-f0ec-cc7d",
-        "hidden": false,
-        "import": true,
-        "targetId": "a33a-de11-6e28-dd63",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "b9e9-a594-c51a-ad79", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "dba4-9b33-bbeb-ef00", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Saturnine Centurion",
-        "id": "1bf4-50b2-9e8b-349c",
-        "hidden": false,
-        "import": true,
-        "targetId": "b360-e1a4-246c-0b44",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "e789-45d3-f11f-975a", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "f571-bed1-e067-bf06", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Saturnine Praetor",
-        "id": "d6bf-42fc-9f16-cdf2",
-        "hidden": false,
-        "import": true,
-        "targetId": "fb08-e4c3-c2dd-0fc7",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "54d8-3587-e564-d1e6", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "0b31-63fb-0e9b-8d91", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Sicaran Master of Armour",
-        "id": "bc80-d1ba-8133-1dbd",
-        "hidden": false,
-        "import": true,
-        "targetId": "3376-ed95-4f28-b705",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "cfb3-c06d-b143-2684", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "7578-483a-d8ad-b1a1", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Siege Breaker",
-        "id": "fd47-83e5-687d-15df",
-        "hidden": false,
-        "import": true,
-        "targetId": "db44-cb35-a60d-a6f6",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "397c-956f-3fe1-ded7", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "1b2d-a689-39c8-1011", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Tartaros Centurion",
-        "id": "a46d-982d-29c9-4184",
-        "hidden": false,
-        "import": true,
-        "targetId": "4e15-f59f-a942-c829",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "7446-63af-8009-bddb", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "cc97-bf71-b2a1-12a5", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Tartaros Champion",
-        "id": "7957-edd3-fead-0cde",
-        "hidden": false,
-        "import": true,
-        "targetId": "5a8c-8f7e-c8f3-458e",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "d7d3-ce66-73ea-8edd", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "bc42-9669-6d90-a611", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Tartaros Chaplin",
-        "id": "fc2b-e273-da82-4b7f",
-        "hidden": false,
-        "import": true,
-        "targetId": "46e1-af9e-302a-b2ff",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "100d-ed80-fdfe-b781", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "4bb4-1d44-a891-7eb8", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Tartaros Esoterist",
-        "id": "081e-c7ec-90ee-7140",
-        "hidden": false,
-        "import": true,
-        "targetId": "d6db-a7b1-09df-5034",
-        "type": "selectionEntry",
-        "infoLinks": [{"name": "Cult Arcana", "id": "87df-a804-faca-6628", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"}],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Tartaros Forge Lord",
-        "id": "2d49-0303-11e6-8130",
-        "hidden": false,
-        "import": true,
-        "targetId": "8e62-aa3b-9a26-b151",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "cca5-9b36-97c0-5d57", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "f254-8cab-fd7c-b2b6", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Tartaros Herald",
-        "id": "b807-3018-9b92-2348",
-        "hidden": false,
-        "import": true,
-        "targetId": "a1a0-a39e-c9d8-885a",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "0d80-88a2-ba86-2fb2", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "b18b-4467-4d74-091c", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Tartaros Librarian",
-        "id": "de9f-a9cc-d947-fa94",
-        "hidden": false,
-        "import": true,
-        "targetId": "70c6-b440-89df-6881",
-        "type": "selectionEntry",
-        "infoLinks": [{"name": "Cult Arcana", "id": "e707-88e6-4ea8-29ae", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"}],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Tartaros Mortifactor",
-        "id": "157a-cc45-5328-1605",
-        "hidden": false,
-        "import": true,
-        "targetId": "c678-20b5-8b21-4fbb",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "29bb-95eb-e971-15f0", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "d594-292f-2b6b-1022", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Tartaros Praetor",
-        "id": "a41c-6288-8b63-5460",
-        "hidden": false,
-        "import": true,
-        "targetId": "dd4d-8bc3-7d45-d3aa",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "12f7-10ba-b0f6-27b3", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "85ae-9e70-7104-7d70", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Tartaros Primus Medicae",
-        "id": "7e42-c7dd-5525-6433",
-        "hidden": false,
-        "import": true,
-        "targetId": "328a-c702-2f0a-6444",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "b3fd-5803-d0b2-39f5", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "1386-0bd5-1705-1a7d", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Tartaros Siege Breaker",
-        "id": "23f1-78cd-ad69-248a",
-        "hidden": false,
-        "import": true,
-        "targetId": "3976-982f-34dc-06f8",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "16a3-4bc7-0e88-cd91", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "a1c7-ce8a-2fba-c692", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Tartaros Warmonger",
-        "id": "9cab-da6e-5e67-7e79",
-        "hidden": false,
-        "import": true,
-        "targetId": "4065-c653-1b0c-4f8f",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "ea29-8ee8-fad9-af91", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "c3b9-8528-c912-5670", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Techmarine",
-        "id": "1d79-802b-36bd-c0b2",
-        "hidden": false,
-        "import": true,
-        "targetId": "5906-c31b-60b0-6ea6",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "6a8b-14f4-2554-4fe8", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "9ec4-1dfa-99f6-9001", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Venerable Ancient Contempter Dreadnought",
-        "id": "b54c-6a53-f7fd-6c62",
-        "hidden": false,
-        "import": true,
-        "targetId": "c738-a003-c9fc-8450",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "86e4-5205-3e83-e46b", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "b2ea-f47a-cf24-0112", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Vigilator",
-        "id": "30c4-863f-0d2d-68c1",
-        "hidden": false,
-        "import": true,
-        "targetId": "adf8-32df-e4a3-be75",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "bddf-735a-a809-a029", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "4cb6-3ee5-7b04-f1c9", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Warmonger",
-        "id": "b0a1-84b9-ffdb-af22",
-        "hidden": false,
-        "import": true,
-        "targetId": "c490-dbef-188a-dcb1",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "c683-35e6-82ed-a662", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "245f-ff7c-4ac8-2c30", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {"name": "Cult Abominatio", "id": "f2c7-d339-1394-4fad", "hidden": false, "import": true, "targetId": "23e5-63f2-00a0-e269", "type": "selectionEntry"},
-      {
-        "name": "Legion Cataphracii Command Squad",
-        "id": "da28-9de6-c943-b6b1",
-        "hidden": false,
-        "import": true,
-        "targetId": "260d-fcdb-bce6-adc6",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "8eb4-5653-2b90-737d", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "fbb7-04ff-9b1b-4f57", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Cataphractii Primus Nullificator",
-        "id": "d1d8-6d20-0175-619b",
-        "hidden": false,
-        "import": true,
-        "targetId": "326d-a698-02b6-8e8d",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "bffa-8da9-1345-56c9", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "a479-7d78-524c-c1df", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Command Squad",
-        "id": "ff69-87ae-b6ee-7680",
-        "hidden": false,
-        "import": true,
-        "targetId": "eb44-0ba7-961f-c555",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "f210-13c5-2b6a-3021", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "b40d-ec8c-c89a-fc9a", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Saturnine Command Squad",
-        "id": "1910-367a-0897-6318",
-        "hidden": false,
-        "import": true,
-        "targetId": "461a-2b45-411c-50a3",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "ca14-5572-9160-c91e", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "909b-7a44-406f-0768", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}, {"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Tartaros Command Squad",
-        "id": "0567-e383-c39f-667a",
-        "hidden": false,
-        "import": true,
-        "targetId": "f543-f511-bd0d-8611",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "367f-3a47-32e8-273b", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "ed5c-0f5e-54f3-b61a", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}, {"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
       {"name": "Detachment", "id": "33b4-fbf2-877a-9a66", "hidden": false, "import": true, "targetId": "61bd-b2bf-4925-afac", "type": "selectionEntry"},
-      {"name": "Loyalty", "id": "9700-edaf-b884-afaf", "hidden": false, "import": true, "targetId": "0397-ebbd-9609-b338", "type": "selectionEntry"},
-      {
-        "name": "Legion Avenger Strike Fighter",
-        "id": "7e99-a017-a150-6e57",
-        "hidden": false,
-        "import": true,
-        "targetId": "3cc5-a083-a336-885f",
-        "type": "selectionEntry",
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Fire Raptor Gunship",
-        "id": "233b-e4c8-ffc4-7a45",
-        "hidden": false,
-        "import": true,
-        "targetId": "8a76-6902-726c-b5e1",
-        "type": "selectionEntry",
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Primaris-Lightning Strike Fighter",
-        "id": "594e-ec6f-5165-db63",
-        "hidden": false,
-        "import": true,
-        "targetId": "0b04-9f4d-a24f-a316",
-        "type": "selectionEntry",
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Storm Eagle Gunship",
-        "id": "6ce2-317b-a311-72f8",
-        "hidden": false,
-        "import": true,
-        "targetId": "018f-2bcd-8f19-764a",
-        "type": "selectionEntry",
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Thunderbolt Fighter",
-        "id": "8b2d-c274-1151-d07f",
-        "hidden": false,
-        "import": true,
-        "targetId": "1e31-32c6-8c4c-f357",
-        "type": "selectionEntry",
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Xiphon Interceptor",
-        "id": "1672-6869-7d21-e2ae",
-        "hidden": false,
-        "import": true,
-        "targetId": "1fc9-94cb-9b08-7f28",
-        "type": "selectionEntry",
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Xiphon Interceptor",
-        "id": "88c8-9358-7237-16cc",
-        "hidden": false,
-        "import": true,
-        "targetId": "1fc9-94cb-9b08-7f28",
-        "type": "selectionEntry",
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Araknae Quad Accelerator Platform",
-        "id": "8d29-b222-60fa-1f9c",
-        "hidden": false,
-        "import": true,
-        "targetId": "ddc4-a817-ebab-5b10",
-        "type": "selectionEntry",
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Tarantula Sentry Gun Battery",
-        "id": "b80c-dac6-5457-92c2",
-        "hidden": false,
-        "import": true,
-        "targetId": "e8da-18b9-7a85-f1ea",
-        "type": "selectionEntry",
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Cataphractii Squad",
-        "id": "b4c3-d35d-9b0a-0c6e",
-        "hidden": false,
-        "import": true,
-        "targetId": "86e9-7365-1fa1-e847",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "59a1-9046-a637-98d4", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "1c54-6708-62c3-8eb0", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}, {"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Destroyer Assault Squad",
-        "id": "99d2-0e90-bf18-7531",
-        "hidden": false,
-        "import": true,
-        "targetId": "9a22-1750-3581-f5e9",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "c313-00d4-c735-3daf", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "4aeb-27f9-8fe5-99a1", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}, {"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Heavy Support Squad",
-        "id": "d1b6-d282-72a1-a678",
-        "hidden": false,
-        "import": true,
-        "targetId": "c68b-74aa-dc15-c950",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "83ea-ed43-f562-3f62", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "553d-0b84-ede8-fdde", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}, {"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Indomitus Terminator Squad",
-        "id": "f0dc-2862-40dc-8cf1",
-        "hidden": false,
-        "import": true,
-        "targetId": "b24a-af33-bbf8-8c21",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "5206-bfec-9d3c-8b41", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "9406-b4e9-ae3e-cf29", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}, {"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Mortalis Destroyer Squad",
-        "id": "d6cb-0c68-0742-476a",
-        "hidden": false,
-        "import": true,
-        "targetId": "b5f2-8ddb-57bd-1583",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "5205-d5c8-fe41-55e8", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "1f0b-7566-0c83-3a27", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}, {"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Nullificator Squad",
-        "id": "0ba7-eac5-7b61-09b7",
-        "hidden": false,
-        "import": true,
-        "targetId": "41de-856c-a041-1f74",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "7044-af91-5622-6e16", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "e750-ee62-6f6d-7067", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}, {"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Rapier Battery",
-        "id": "cf6e-6a15-3c90-21ed",
-        "hidden": false,
-        "import": true,
-        "targetId": "8b64-1e68-a680-b744",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "fa00-b8e9-8ead-551b", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "55d0-84a7-a93e-3784", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}, {"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Reconnaissance Squad",
-        "id": "5b69-350f-d9fe-1b48",
-        "hidden": false,
-        "import": true,
-        "targetId": "87e9-4645-76e0-00e8",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "8527-43ab-c340-4354", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "c19f-1341-bd7c-99da", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}, {"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Saturnine Terminator Squad",
-        "id": "0186-b70b-24c1-7f7c",
-        "hidden": false,
-        "import": true,
-        "targetId": "dbe4-370a-baf7-d82d",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "3a6d-919d-5147-138b", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "3341-b1ab-570a-d023", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}, {"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Scout Squad",
-        "id": "72fc-3759-bf45-a8fb",
-        "hidden": false,
-        "import": true,
-        "targetId": "769b-7644-1599-a579",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "1427-471f-0a15-ab33", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "becc-0c79-820f-de96", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}, {"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Seeker Squad",
-        "id": "1196-e5fd-8490-4517",
-        "hidden": false,
-        "import": true,
-        "targetId": "3789-2f71-8ac7-06f6",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "ef90-e04a-e5ac-ad12", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "41c5-b99d-9018-9781", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}, {"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Tactical Support Squad",
-        "id": "24ad-377f-bff3-5712",
-        "hidden": false,
-        "import": true,
-        "targetId": "3711-985b-f066-5d7b",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "085f-1983-bef0-c074", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "a5b0-6051-784d-a31f", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}, {"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Tartaros Squad",
-        "id": "55e0-0b4a-5415-64a7",
-        "hidden": false,
-        "import": true,
-        "targetId": "533b-2c5b-c5aa-7fac",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "0c5c-e0f0-01b3-c267", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "b7f3-a7d8-b5e7-7e5e", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}, {"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Veteran Squad",
-        "id": "634e-7707-4e85-b5ee",
-        "hidden": false,
-        "import": true,
-        "targetId": "14ca-45b2-dca4-33f6",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "65e6-90f3-f109-ef49", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "164d-9167-5dfe-b387", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}, {"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Javelin Squadron",
-        "id": "b828-98b4-4a32-9ebe",
-        "hidden": false,
-        "import": true,
-        "targetId": "2492-388c-9304-c2c8",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "b9e4-8512-d4ef-4426", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "591f-462c-8649-2a62", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}, {"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Outrider Squadron",
-        "id": "e9e8-6bb2-833b-f13f",
-        "hidden": false,
-        "import": true,
-        "targetId": "6d72-7039-2d3d-4f6a",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "a1c1-2345-83f2-4df1", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "e175-bd6f-085f-670a", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}, {"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Proteus Land Speeder Squadron",
-        "id": "0350-9821-59b4-c75f",
-        "hidden": false,
-        "import": true,
-        "targetId": "2cd9-4c4a-22d4-2149",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "c380-a080-8350-5b9a", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "dc4f-4da7-e225-2ef7", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}, {"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Spatha Attack Bike Squadron",
-        "id": "16a4-0643-a903-7b7b",
-        "hidden": false,
-        "import": true,
-        "targetId": "ffd4-fb23-ba98-73fc",
-        "type": "selectionEntry",
-        "infoLinks": [
-          {"name": "Cult Arcana", "id": "22f0-9746-4942-3dbd", "hidden": false, "targetId": "d326-5388-9659-f71d", "type": "rule"},
-          {"name": "Psyker", "id": "d18b-ed00-fc6e-9e2f", "hidden": false, "targetId": "6a9c-e24b-15cc-1f44", "type": "rule"}
-        ],
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}, {"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Caestus Assault Ram",
-        "id": "ca7e-db24-bdb8-4025",
-        "hidden": false,
-        "import": true,
-        "targetId": "c2ac-4740-5dac-46f6",
-        "type": "selectionEntry",
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Land raider Proteus Explorator",
-        "id": "50d6-7a16-a79a-b025",
-        "hidden": false,
-        "import": true,
-        "targetId": "e0a6-52e4-abe6-a365",
-        "type": "selectionEntry",
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Whirlwind",
-        "id": "f0c8-abef-7744-61f0",
-        "hidden": false,
-        "import": true,
-        "targetId": "54bc-596b-4eec-7d43",
-        "type": "selectionEntry",
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Basalisk Squadron",
-        "id": "c586-1db6-1f1f-ea1d",
-        "hidden": false,
-        "import": true,
-        "targetId": "5341-5378-0b4b-3df2",
-        "type": "selectionEntry",
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Land Raider Achillies Squadron",
-        "id": "7fc0-5719-d33e-6c47",
-        "hidden": false,
-        "import": true,
-        "targetId": "e94e-ebb3-d166-4742",
-        "type": "selectionEntry",
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Medusa Squadron",
-        "id": "3996-8cdd-caa6-0735",
-        "hidden": false,
-        "import": true,
-        "targetId": "a71c-9118-71cb-9ffe",
-        "type": "selectionEntry",
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Minotaur Battery",
-        "id": "23a5-8d02-e6da-dc4c",
-        "hidden": false,
-        "import": true,
-        "targetId": "ed37-7e1a-a729-6bf4",
-        "type": "selectionEntry",
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Sabre Strike Squadron",
-        "id": "79c3-6b1e-eded-fb42",
-        "hidden": false,
-        "import": true,
-        "targetId": "f50e-2453-e395-c153",
-        "type": "selectionEntry",
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Scorpius Squadron",
-        "id": "2923-c164-fe2b-b452",
-        "hidden": false,
-        "import": true,
-        "targetId": "2630-7d98-466e-3a5b",
-        "type": "selectionEntry",
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Sicaran Squadron",
-        "id": "b566-a594-f261-6785",
-        "hidden": false,
-        "import": true,
-        "targetId": "a6f3-8850-8883-56c5",
-        "type": "selectionEntry",
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Vindicator Squadron",
-        "id": "3dc4-d592-a1d3-5a7f",
-        "hidden": false,
-        "import": true,
-        "targetId": "1712-9d30-0f4f-5537",
-        "type": "selectionEntry",
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Arquitor Squadron",
-        "id": "a5d1-ff45-05d6-707c",
-        "hidden": false,
-        "import": true,
-        "targetId": "efbe-a324-fdc4-4f2e",
-        "type": "selectionEntry",
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Kratos Squadron",
-        "id": "70d1-6e40-213b-0010",
-        "hidden": false,
-        "import": true,
-        "targetId": "c8f6-06dd-a85a-ee3e",
-        "type": "selectionEntry",
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Land Raider Phobos Squadron",
-        "id": "20f9-89fc-4640-a845",
-        "hidden": false,
-        "import": true,
-        "targetId": "7dae-010e-1b78-650a",
-        "type": "selectionEntry",
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Land Raider Proteus Carrier Squadron",
-        "id": "bf60-0497-6fda-ea90",
-        "hidden": false,
-        "import": true,
-        "targetId": "6794-9181-ab78-220f",
-        "type": "selectionEntry",
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Land Raider Spartan",
-        "id": "6569-305b-e292-5c62",
-        "hidden": false,
-        "import": true,
-        "targetId": "3623-ae0e-1bfd-6ffe",
-        "type": "selectionEntry",
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Malcador Assault Tank Squadron",
-        "id": "0bd6-7e25-1d7e-bb90",
-        "hidden": false,
-        "import": true,
-        "targetId": "83f8-8560-c726-365a",
-        "type": "selectionEntry",
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Predator Squadron",
-        "id": "9231-c2de-1b94-f991",
-        "hidden": false,
-        "import": true,
-        "targetId": "b2fa-91c2-c0bf-bbcc",
-        "type": "selectionEntry",
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Saturnine Dreadnought",
-        "id": "4d6c-6d2e-5e0f-b146",
-        "hidden": false,
-        "import": true,
-        "targetId": "bb4b-be3a-d843-5a66",
-        "type": "selectionEntry",
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Castra Ferrum Dreadnought Talon",
-        "id": "905a-ca8c-d384-35d2",
-        "hidden": false,
-        "import": true,
-        "targetId": "f63b-d601-fe21-e221",
-        "type": "selectionEntry",
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Contemptor Dreadnought Talon",
-        "id": "7bf4-656d-dac7-92a6",
-        "hidden": false,
-        "import": true,
-        "targetId": "0253-b6f0-97a0-4437",
-        "type": "selectionEntry",
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Levithan Dreadnought Talon",
-        "id": "f5d8-0f3b-f387-9911",
-        "hidden": false,
-        "import": true,
-        "targetId": "1b60-60be-1475-2a44",
-        "type": "selectionEntry",
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      },
-      {
-        "name": "Legion Deredeo Dreadnought Talon",
-        "id": "cd32-d588-f865-c347",
-        "hidden": false,
-        "import": true,
-        "targetId": "180d-3e88-b259-5d1d",
-        "type": "selectionEntry",
-        "modifiers": [{"field": "category", "type": "add", "value": "f7f0-5867-fb76-e821"}]
-      }
+      {"name": "Loyalty", "id": "9700-edaf-b884-afaf", "hidden": false, "import": true, "targetId": "0397-ebbd-9609-b338", "type": "selectionEntry"}
     ],
     "rules": [
       {
@@ -2439,10 +1125,10 @@
               {"name": "Walker", "id": "7bf8-f091-a299-2bfc", "hidden": false, "primary": true, "targetId": "6dda-e157-334d-e93a"},
               {"name": "Vehicle", "id": "eb0c-7990-14e2-9776", "hidden": false, "primary": false, "targetId": "dbd4-63-af05-998"},
               {"name": "Dreadnought", "id": "eaaf-e806-d20e-770e", "hidden": false, "primary": false, "targetId": "c97c-376-e2e0-1dd2"},
-              {"name": "Contempter", "id": "c024-5681-db3a-6aed", "hidden": false, "primary": false, "targetId": "c2df-6baa-f3db-d351"},
               {"name": "Psyker", "id": "800e-5a85-cc2b-5a4c", "hidden": false, "primary": false, "targetId": "13bf-2bee-3ae0-b414"},
               {"name": "Faction: Thousand Sons", "id": "3d2d-d0ff-6993-dc8b", "hidden": false, "primary": false, "targetId": "f7f0-5867-fb76-e821"},
-              {"name": "Contempter-Osiron Dreadnought", "id": "7913-af87-996c-73e9", "hidden": false, "primary": false, "targetId": "5c24-adcf-eeed-99e7"}
+              {"name": "Contempter-Osiron Dreadnought", "id": "7913-af87-996c-73e9", "hidden": false, "primary": false, "targetId": "5c24-adcf-eeed-99e7"},
+              {"name": "Contempter", "id": "5a27-2a19-40ed-f326", "hidden": false, "primary": false, "targetId": "9156-be10-16d1-0ac8"}
             ],
             "constraints": [
               {"id": "d56e-c634-8a23-1a6f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
@@ -3031,27 +1717,7 @@
                 "name": "Weapons",
                 "id": "7cd6-eb7f-04e0-7067",
                 "hidden": false,
-                "entryLinks": [
-                  {
-                    "name": "Achea force weapon",
-                    "id": "de5d-bf73-e3dd-8add",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "1aa5-c6a8-d021-4de8",
-                    "type": "selectionEntry",
-                    "constraints": [
-                      {"id": "9f6a-d25e-b396-f87b", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "1699-d744-42f5-8214", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-                    ],
-                    "infoLinks": [{"name": "Twin-linked", "id": "281c-c479-1509-d6d0", "hidden": false, "targetId": "cf93-ad4d-2f08-a79d", "type": "rule"}],
-                    "modifiers": [
-                      {"affects": "profiles.Melee Weapons", "field": "2337-daa1-6682-b110", "type": "multiply", "value": "2"},
-                      {"affects": "profiles.Melee Weapons", "field": "name", "type": "prepend", "value": "Duel"},
-                      {"field": "name", "type": "prepend", "value": "Duel"},
-                      {"affects": "profiles.Melee Weapons", "field": "893f-9000-ccf7-648e", "join": ", ", "type": "append", "value": "Twin-Linked"}
-                    ]
-                  }
-                ],
+                "entryLinks": [{"name": "Power Weapons", "id": "929a-1bfb-e74b-2ef5", "hidden": false, "import": true, "targetId": "725f-c946-fdf2-fd33", "type": "selectionEntryGroup"}],
                 "modifiers": [
                   {"affects": "recursive.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1},
                   {"affects": "recursive.profiles.Melee Weapons", "field": "2337-daa1-6682-b110", "type": "increment", "value": 1}
@@ -3126,27 +1792,7 @@
                     "name": "Weapons",
                     "id": "45af-52b9-f77b-9d45",
                     "hidden": false,
-                    "entryLinks": [
-                      {
-                        "name": "Achea force weapon",
-                        "id": "7083-746e-0e67-f7cf",
-                        "hidden": false,
-                        "import": true,
-                        "targetId": "1aa5-c6a8-d021-4de8",
-                        "type": "selectionEntry",
-                        "constraints": [
-                          {"id": "71c7-fb7f-ff3b-cfb7", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-                          {"id": "2ae4-04fb-6a08-8dd8", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-                        ],
-                        "infoLinks": [{"name": "Twin-linked", "id": "afb7-e837-0447-bcdb", "hidden": false, "targetId": "cf93-ad4d-2f08-a79d", "type": "rule"}],
-                        "modifiers": [
-                          {"affects": "profiles.Melee Weapons", "field": "2337-daa1-6682-b110", "type": "multiply", "value": "2"},
-                          {"affects": "profiles.Melee Weapons", "field": "name", "type": "prepend", "value": "Duel"},
-                          {"field": "name", "type": "prepend", "value": "Duel"},
-                          {"affects": "profiles.Melee Weapons", "field": "893f-9000-ccf7-648e", "join": ", ", "type": "append", "value": "Twin-Linked"}
-                        ]
-                      }
-                    ],
+                    "entryLinks": [{"name": "Power Weapons", "id": "1fdc-c282-875a-7363", "hidden": false, "import": true, "targetId": "725f-c946-fdf2-fd33", "type": "selectionEntryGroup"}],
                     "modifiers": [{"affects": "recursive.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1}],
                     "selectionEntryGroups": [
                       {
@@ -3214,27 +1860,7 @@
                     "name": "Weapons",
                     "id": "586f-fd14-c8aa-4451",
                     "hidden": false,
-                    "entryLinks": [
-                      {
-                        "name": "Achea force weapon",
-                        "id": "d52a-5cdb-1ff0-d004",
-                        "hidden": false,
-                        "import": true,
-                        "targetId": "1aa5-c6a8-d021-4de8",
-                        "type": "selectionEntry",
-                        "constraints": [
-                          {"id": "9db0-63f4-76fd-18a2", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-                          {"id": "e50b-915c-5bb5-91ee", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-                        ],
-                        "infoLinks": [{"name": "Twin-linked", "id": "b285-c596-da80-7ad7", "hidden": false, "targetId": "cf93-ad4d-2f08-a79d", "type": "rule"}],
-                        "modifiers": [
-                          {"affects": "profiles.Melee Weapons", "field": "2337-daa1-6682-b110", "type": "multiply", "value": "2"},
-                          {"affects": "profiles.Melee Weapons", "field": "name", "type": "prepend", "value": "Duel"},
-                          {"field": "name", "type": "prepend", "value": "Duel"},
-                          {"affects": "profiles.Melee Weapons", "field": "893f-9000-ccf7-648e", "join": ", ", "type": "append", "value": "Twin-Linked"}
-                        ]
-                      }
-                    ],
+                    "entryLinks": [{"name": "Power Weapons", "id": "be8d-76e0-fa84-d185", "hidden": false, "import": true, "targetId": "725f-c946-fdf2-fd33", "type": "selectionEntryGroup"}],
                     "modifiers": [{"affects": "recursive.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1}],
                     "selectionEntryGroups": [
                       {
@@ -3457,7 +2083,6 @@
                       {"id": "b5cf-f96c-df2c-3714", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
                     ],
                     "entryLinks": [
-                      {"name": "Achea force weapon", "id": "14a4-0a07-7869-dd11", "hidden": false, "import": true, "targetId": "1aa5-c6a8-d021-4de8", "type": "selectionEntry"},
                       {
                         "name": "Power Fist",
                         "id": "496e-6429-66b0-5aed",
@@ -3493,7 +2118,8 @@
                         "targetId": "6d78-58ee-9119-b2e0",
                         "type": "selectionEntry",
                         "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 15}]
-                      }
+                      },
+                      {"name": "Power Weapons", "id": "7f18-654e-1291-e127", "hidden": false, "import": true, "targetId": "725f-c946-fdf2-fd33", "type": "selectionEntryGroup"}
                     ]
                   }
                 ]
@@ -3594,7 +2220,6 @@
                       {"id": "21a2-db45-f3b7-5104", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
                     ],
                     "entryLinks": [
-                      {"name": "Achea force weapon", "id": "366d-fb90-de34-044c", "hidden": false, "import": true, "targetId": "1aa5-c6a8-d021-4de8", "type": "selectionEntry"},
                       {
                         "name": "Power Fist",
                         "id": "a17f-4c76-a38a-c71c",
@@ -3630,7 +2255,8 @@
                         "targetId": "6d78-58ee-9119-b2e0",
                         "type": "selectionEntry",
                         "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 15}]
-                      }
+                      },
+                      {"name": "Power Weapons", "id": "d483-c425-9e3d-6369", "hidden": false, "import": true, "targetId": "725f-c946-fdf2-fd33", "type": "selectionEntryGroup"}
                     ]
                   }
                 ]
@@ -3824,7 +2450,6 @@
                       {"id": "56ef-3d0e-b22a-1506", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
                     ],
                     "entryLinks": [
-                      {"name": "Achea force weapon", "id": "9ffd-4306-9a65-c4f7", "hidden": false, "import": true, "targetId": "1aa5-c6a8-d021-4de8", "type": "selectionEntry"},
                       {
                         "name": "Thunder Hammer",
                         "id": "f822-3701-7eea-bc27",
@@ -3833,7 +2458,8 @@
                         "targetId": "6a81-9e86-bdb9-1d22",
                         "type": "selectionEntry",
                         "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 15}]
-                      }
+                      },
+                      {"name": "Power Weapons", "id": "9eef-e475-18a8-a77c", "hidden": false, "import": true, "targetId": "725f-c946-fdf2-fd33", "type": "selectionEntryGroup"}
                     ]
                   },
                   {
@@ -4113,15 +2739,7 @@
                             "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 15}],
                             "modifiers": [{"affects": "self.entries.recursive.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "type": "increment", "value": 1}]
                           },
-                          {
-                            "name": "Power Weapon",
-                            "id": "b92d-d6fa-f70b-92a5",
-                            "hidden": false,
-                            "import": true,
-                            "targetId": "3e76-8280-4841-075d",
-                            "type": "selectionEntry",
-                            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 5}]
-                          }
+                          {"name": "Power Weapons", "id": "b42e-87a6-e408-cde1", "hidden": false, "import": true, "targetId": "725f-c946-fdf2-fd33", "type": "selectionEntryGroup"}
                         ]
                       }
                     ]
@@ -4643,7 +3261,8 @@
           {"name": "Psyker", "id": "d89f-9866-5684-2bc5", "hidden": false, "primary": false, "targetId": "13bf-2bee-3ae0-b414"},
           {"name": "Explosives", "id": "9f58-7a6c-0028-7c8e", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
           {"name": "Faction: Thousand Sons", "id": "3fa0-bec9-7e00-5d1e", "hidden": false, "primary": false, "targetId": "f7f0-5867-fb76-e821"},
-          {"name": "Lord of the Moon", "id": "5d5c-5835-a0c3-d3c7", "hidden": false, "primary": false, "targetId": "d152-d53c-5897-547c"}
+          {"name": "Lord of the Moon", "id": "5d5c-5835-a0c3-d3c7", "hidden": false, "primary": false, "targetId": "d152-d53c-5897-547c"},
+          {"name": "Custom", "id": "d0cd-0782-727a-08d4", "hidden": false, "primary": false, "targetId": "2ef3-3e16-c27f-8308"}
         ],
         "constraints": [{"id": "b799-c9a6-9269-efcb", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
         "costs": [
@@ -4802,7 +3421,7 @@
                 "import": true,
                 "targetId": "eeaf-528c-6af5-cbe2",
                 "type": "selectionEntryGroup",
-                "constraints": [{"id": "7900-5bad-54d5-bd29", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}]
+                "constraints": [{"id": "7900-5bad-54d5-bd29", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 5}]
               }
             ],
             "profiles": [
@@ -4815,7 +3434,7 @@
                 "characteristics": [
                   {
                     "name": "Description",
-                    "$text": "At the start of each of your turns roll a 3D100. If one or more dice have the same value this model suffers 1 **Psychic Mortal Wound** and re-roll all dice that have the same value. Then each value represents 1 **Psykic Disipline** in the list. This model gets them till the start of your next turn. If you rolled a value that has not one you can re-roll the dice for free.",
+                    "$text": "At the start of each of your turns roll a 5D100. If one or more dice have the same value this model suffers 1 **Psychic Mortal Wound** and re-roll all dice that have the same value. Then each value represents 1 **Psykic Disipline** in the list. This model gets them till the start of your next turn. If you rolled a value that has not one you can re-roll the dice for free.",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ]
@@ -4967,18 +3586,7 @@
                   {"id": "9180-ced8-9db4-5bb8", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
                 ]
               },
-              {
-                "name": "Achea force weapon",
-                "id": "14f0-b3da-0001-4d9d",
-                "hidden": false,
-                "import": true,
-                "targetId": "1aa5-c6a8-d021-4de8",
-                "type": "selectionEntry",
-                "constraints": [
-                  {"id": "689b-2e24-1fa7-1212", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "aa8b-a1b1-9753-54a8", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-                ]
-              }
+              {"name": "Power Weapons", "id": "56b4-0e9c-37c6-e81f", "hidden": false, "import": true, "targetId": "725f-c946-fdf2-fd33", "type": "selectionEntryGroup"}
             ],
             "modifiers": [{"affects": "profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "type": "increment", "value": 1}]
           }
@@ -5313,8 +3921,8 @@
                   {"id": "471f-5660-4de8-2bd8", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
                 ],
                 "entryLinks": [
-                  {"name": "Achea force weapon", "id": "d8ad-cfb3-c22e-5e09", "hidden": false, "import": true, "targetId": "1aa5-c6a8-d021-4de8", "type": "selectionEntry"},
-                  {"name": "Prosperine khopesh", "id": "9e8b-2162-43a6-6852", "hidden": false, "import": true, "targetId": "bab7-4458-1dd6-86e9", "type": "selectionEntry"}
+                  {"name": "Prosperine khopesh", "id": "9e8b-2162-43a6-6852", "hidden": false, "import": true, "targetId": "bab7-4458-1dd6-86e9", "type": "selectionEntry"},
+                  {"name": "Power Weapons", "id": "0b97-60c1-87c8-73bd", "hidden": false, "import": true, "targetId": "725f-c946-fdf2-fd33", "type": "selectionEntryGroup"}
                 ]
               }
             ]
@@ -5460,8 +4068,8 @@
                   {"id": "47ab-f737-fa4f-6af3", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
                 ],
                 "entryLinks": [
-                  {"name": "Achea force weapon", "id": "7e1e-2184-974d-5c79", "hidden": false, "import": true, "targetId": "1aa5-c6a8-d021-4de8", "type": "selectionEntry"},
-                  {"name": "Prosperine khopesh", "id": "13c1-f990-a376-3a81", "hidden": false, "import": true, "targetId": "bab7-4458-1dd6-86e9", "type": "selectionEntry"}
+                  {"name": "Prosperine khopesh", "id": "13c1-f990-a376-3a81", "hidden": false, "import": true, "targetId": "bab7-4458-1dd6-86e9", "type": "selectionEntry"},
+                  {"name": "Power Weapons", "id": "51b0-c593-5239-01b3", "hidden": false, "import": true, "targetId": "725f-c946-fdf2-fd33", "type": "selectionEntryGroup"}
                 ]
               }
             ]
@@ -6026,12 +4634,12 @@
         "categoryLinks": [
           {"name": "Infantry", "id": "2fb4-a81a-ad5f-1d21", "hidden": false, "primary": true, "targetId": "cf47-a0d7-7207-29dc"},
           {"name": "Terminator", "id": "8b54-4b5d-b279-6c08", "hidden": false, "primary": false, "targetId": "740a-892c-8958-defa"},
-          {"name": "Tartaros", "id": "48c2-2ae5-793d-e432", "hidden": false, "primary": false, "targetId": "eef7-aee4-8991-1688"},
           {"name": "Explosives", "id": "10dc-cf78-f8c2-b740", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
           {"name": "Psyker", "id": "1241-612f-5d47-fc62", "hidden": false, "primary": false, "targetId": "13bf-2bee-3ae0-b414"},
           {"name": "Faction: Thousand Sons", "id": "6c7b-e380-18d2-82ae", "hidden": false, "primary": false, "targetId": "f7f0-5867-fb76-e821"},
           {"name": "Scarab Occult Terminators", "id": "8767-7e60-ae05-3704", "hidden": false, "primary": false, "targetId": "510f-46da-3219-27c5"},
-          {"name": "Traitor", "id": "9eaf-8fc7-bcae-fa56", "hidden": false, "primary": false, "targetId": "ab5d-ae96-512e-2748"}
+          {"name": "Traitor", "id": "9eaf-8fc7-bcae-fa56", "hidden": false, "primary": false, "targetId": "ab5d-ae96-512e-2748"},
+          {"name": "Tartaros", "id": "92ba-0314-78e9-6b1d", "hidden": false, "primary": false, "targetId": "caeb-8692-b881-3ecd"}
         ],
         "constraints": [
           {
@@ -6158,8 +4766,8 @@
                       {"id": "2f3b-52cb-b98c-80b9", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
                     ],
                     "entryLinks": [
-                      {"name": "Achea force weapon", "id": "df6d-5800-03c5-d0d5", "hidden": false, "import": true, "targetId": "1aa5-c6a8-d021-4de8", "type": "selectionEntry"},
-                      {"name": "Prosperine khopesh", "id": "d2c7-67b0-8d08-08e7", "hidden": false, "import": true, "targetId": "bab7-4458-1dd6-86e9", "type": "selectionEntry"}
+                      {"name": "Prosperine khopesh", "id": "d2c7-67b0-8d08-08e7", "hidden": false, "import": true, "targetId": "bab7-4458-1dd6-86e9", "type": "selectionEntry"},
+                      {"name": "Power Weapons", "id": "cb4b-4c4a-a5c6-2474", "hidden": false, "import": true, "targetId": "725f-c946-fdf2-fd33", "type": "selectionEntryGroup"}
                     ]
                   }
                 ]

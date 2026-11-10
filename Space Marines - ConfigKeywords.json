@@ -28,7 +28,21 @@
       {"name": "Primus Nullificator", "id": "f00c-671e-7ab9-4a33", "hidden": false},
       {"name": "Librarian", "id": "5e3e-5df0-cb13-57e7", "hidden": false},
       {"name": "Faction: Iron Warrior", "id": "646b-2fc9-f9e9-3295", "hidden": false},
-      {"name": "Faction: Death Gaurd", "id": "15c4-e42a-41d1-5ded", "hidden": false}
+      {"name": "Faction: Death Gaurd", "id": "15c4-e42a-41d1-5ded", "hidden": false},
+      {"name": "Faction: World Eater", "id": "02d7-1d5e-9990-f157", "hidden": false},
+      {"name": "Faction: Iron Hands 30k", "id": "5477-043f-7576-1fc4", "hidden": false},
+      {"name": "Blank", "id": "fb53-86a0-51fb-83a7", "hidden": false},
+      {"name": "Gorgon", "id": "4141-ea4f-27c4-d304", "hidden": false},
+      {"name": "Cataphracii", "id": "163e-4731-8e1a-b26b", "hidden": false},
+      {"name": "Veteran Squad", "id": "a071-76f8-5142-d39c", "hidden": false},
+      {"name": "Saturnine", "id": "fa7e-e1e3-6fcd-5479", "hidden": false},
+      {"name": "Custom", "id": "2ef3-3e16-c27f-8308", "hidden": false},
+      {"name": "Siege Breaker", "id": "ee9b-4a7c-37f2-d0df", "hidden": false},
+      {"name": "Deamon", "id": "5a23-512b-06ec-1cb3", "hidden": false},
+      {"name": "Heavy", "id": "34ce-dbda-a41c-906d", "hidden": false},
+      {"name": "Tartaros", "id": "caeb-8692-b881-3ecd", "hidden": false},
+      {"name": "Chaplin", "id": "3424-a4ab-7566-abde", "hidden": false},
+      {"name": "Castaferrum", "id": "fba0-2821-0e4d-04dc", "hidden": false}
     ],
     "sharedProfiles": [
       {
@@ -223,7 +237,20 @@
         "id": "dbb3-cda4-fe58-63ba",
         "description": "Before a unit attacks with weapons with this ability and is not **battle-shocked** it can make a **psychic roll** on 1D6:\n- On a 1 this unit is **battle-shocked**\n- Else: increase all **Achean Force** weapons in this unit **strength** by 2 for the rest of the phase\n[You only make 1 roll for this per phase no matter how many weapons have this ability]\nWeapons with this can not make a **psychic roll** due to the **psychic** weapon rule",
         "hidden": false
-      }
+      },
+      {
+        "name": "Violence Incarnate",
+        "id": "7dc4-6efb-08fc-f5b2",
+        "description": "When a model with this rule **charges**  increase the number of **melee attacks** by 1 till the start of your next turn.",
+        "hidden": false
+      },
+      {
+        "name": "Remorseless",
+        "id": "dd02-cb36-1e0b-cc42",
+        "description": "All non-**mounted** or **artillery** ignore modifiers to their **movement**,**advance** and **charges** and if the unit with this rule does not **advance**,**fall-back**, **Fly**, **Deep Strike** or **Disembark** it counts as remaning stationary even if its moved.",
+        "hidden": false
+      },
+      {"name": "Medusa Scales", "id": "4b18-3b84-edc2-362f", "description": "All incoming attacks have their **strength** reduced by 1", "hidden": false}
     ],
     "sharedSelectionEntries": [
       {
@@ -315,12 +342,72 @@
           {"id": "0b06-18e6-527e-ee43", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 0},
           {"id": "04be-01e1-f401-09dc", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
         ]
+      },
+      {
+        "name": "XII: World Eaters",
+        "id": "d3f7-9913-9d3e-e140",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 12,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Faction: World Eater", "id": "a444-3167-16bc-eca1", "hidden": false, "primary": false, "targetId": "02d7-1d5e-9990-f157"}],
+        "constraints": [
+          {"id": "9152-ec35-883d-6fa8", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+          {"id": "f50f-a9cd-967c-dbb2", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+        ],
+        "infoLinks": [{"name": "Violence Incarnate", "id": "d20e-d5b2-e937-1d8e", "hidden": false, "targetId": "7dc4-6efb-08fc-f5b2", "type": "rule"}]
+      },
+      {
+        "name": "XIV: Death Guard",
+        "id": "c8c7-9ab5-f26c-043a",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 14,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Faction: World Eater", "id": "0097-41a7-d3c2-ac4a", "hidden": false, "primary": false, "targetId": "02d7-1d5e-9990-f157"}],
+        "constraints": [
+          {"id": "3a8f-5c06-54a2-c39e", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+          {"id": "d988-76d9-c9c8-f097", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+        ],
+        "infoLinks": [{"name": "Remorseless", "id": "2488-0fee-838e-b077", "hidden": false, "targetId": "dd02-cb36-1e0b-cc42", "type": "rule"}]
+      },
+      {
+        "name": "Abhorrent Augmentation",
+        "id": "0fb4-b41e-5fa1-a140",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 12,
+        "type": "upgrade",
+        "constraints": [{"id": "95b6-a8b2-a1c8-ad94", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+        "modifiers": [
+          {"affects": "self.entries.recursive", "field": "name", "join": " ", "scope": "parent", "type": "prepend", "value": "Abhorrent"},
+          {"affects": "recursive.profiles.Unit", "field": "name", "join": " ", "scope": "parent", "type": "prepend", "value": "Abhorrent"},
+          {"affects": "self.entries.group.recursive.profiles.Melee Weapons", "field": "ab33-d393-96ce-ccba", "scope": "parent", "type": "increment", "value": 1},
+          {"affects": "self.entries.group.recursive.profiles.Ranged Weapons", "field": "94d-8a98-cf90-183e", "scope": "parent", "type": "increment", "value": 1},
+          {"field": "category", "type": "add", "value": "2078-fcee-2eba-3af8"},
+          {"affects": "self.entries.recursive.profiles.Unit", "field": "bef7-942a-1a23-59f8", "scope": "parent", "type": "increment", "value": -1}
+        ]
+      },
+      {
+        "name": "X: Iron Hands",
+        "id": "511d-b1ff-2e23-9b83",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 10,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Faction: World Eater", "id": "e30f-b649-2815-2a77", "hidden": false, "primary": false, "targetId": "02d7-1d5e-9990-f157"}],
+        "constraints": [
+          {"id": "8d0c-e4d6-ad61-7d5c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+          {"id": "b094-cc72-67eb-0cb1", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+        ],
+        "infoLinks": [{"name": "Medusa Scales", "id": "d8be-da5c-a4ec-6bf1", "hidden": false, "targetId": "4b18-3b84-edc2-362f", "type": "rule"}]
       }
     ],
     "sharedSelectionEntryGroups": [
       {
         "name": "Common Detachments",
         "id": "1a9b-dc90-4bb8-6fee",
+        "defaultSelectionEntryId": "none",
         "hidden": false,
         "sortIndex": 0,
         "constraints": [
@@ -595,6 +682,7 @@
       {
         "name": "Salamander Detachments",
         "id": "588d-1be1-21b7-b382",
+        "defaultSelectionEntryId": "none",
         "hidden": false,
         "sortIndex": 18,
         "selectionEntries": [
@@ -638,6 +726,7 @@
       {
         "name": "Alpha Legion Detachments",
         "id": "2b21-4c1c-9c7f-c22d",
+        "defaultSelectionEntryId": "none",
         "hidden": false,
         "sortIndex": 20,
         "selectionEntries": [
@@ -682,6 +771,7 @@
       {
         "name": "Night Lord Detachments",
         "id": "9f55-eed6-f1a3-3413",
+        "defaultSelectionEntryId": "none",
         "hidden": false,
         "sortIndex": 8,
         "selectionEntries": [
@@ -740,6 +830,7 @@
       {
         "name": "Raven Guard Detachments",
         "id": "7d1b-6f3c-750b-b0e4",
+        "defaultSelectionEntryId": "none",
         "hidden": false,
         "sortIndex": 19,
         "selectionEntries": [
@@ -790,6 +881,7 @@
       {
         "name": "Thousand Sons Detachments",
         "id": "ea00-a119-b168-d9b3",
+        "defaultSelectionEntryId": "none",
         "hidden": false,
         "sortIndex": 15,
         "selectionEntries": [
@@ -832,6 +924,7 @@
       {
         "name": "Iron Warrior Detachment",
         "id": "ff7a-2d74-b523-bdf1",
+        "defaultSelectionEntryId": "none",
         "hidden": false,
         "sortIndex": 4,
         "selectionEntries": [

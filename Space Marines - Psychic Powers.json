@@ -171,6 +171,50 @@
         "typeId": "9cc3-6d83-4dd3-9b64",
         "typeName": "Abilities",
         "characteristics": [{"name": "Description", "$text": "**Typhus** has the **psychic abilities** listed in the **psychic abilities** section", "typeId": "9b8f-694b-e5e-b573"}]
+      },
+      {
+        "name": "Empathic Rage (Psyker level 1)",
+        "id": "c5ae-5b0b-3ae3-6a28",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [{"name": "Description", "$text": "**Angron ** has the **psychic abilities** listed in the Psychic Abilities section.", "typeId": "9b8f-694b-e5e-b573"}]
+      },
+      {
+        "name": "Iron Soul (Blank level 3)",
+        "id": "4ab7-3d6f-c62b-59a7",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [{"name": "Description", "$text": "**Ferrus Manus** reduces the **psychic roll** made by **any units** withing 15\" by 3", "typeId": "9b8f-694b-e5e-b573"}]
+      },
+      {
+        "name": "Cold Steel Will (Blank level 1)",
+        "id": "22ac-4224-ee41-26d9",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+          {
+            "name": "Description",
+            "$text": "**Immortals** and **Immortal Sergeant**  reduces the **psychic roll** made by **any units** withing 5\" by 1",
+            "typeId": "9b8f-694b-e5e-b573"
+          }
+        ]
+      },
+      {
+        "name": "Iron Fortitude (Blank level 1)",
+        "id": "3d7f-9a82-4b3b-f680",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+          {
+            "name": "Description",
+            "$text": "**Gorgon Terminator** and **Gorgon Hammerbeaer** reduces the **psychic roll** made by **any units** withing 5\" by 1",
+            "typeId": "9b8f-694b-e5e-b573"
+          }
+        ]
       }
     ],
     "sharedRules": [
@@ -178,6 +222,12 @@
         "name": "Psyker",
         "id": "6a9c-e24b-15cc-1f44",
         "description": "**Psyker** units with this ability have a **psyker level** of 1 or higher, specified in that unit's abilities. Each **psychic level** of 1 or higher in its specified ability's name. \nIn a battle round, a friendly **Psyker** unit can only use a number of **psychic abilities** whose total **psychic level** does not exceed that **PSYKER** unit's **psychic level**",
+        "hidden": false
+      },
+      {
+        "name": "Blank",
+        "id": "8f78-4e31-4d5b-95d7",
+        "description": "**Blank** models have a **[Feel No Pain 3+]** against **psychic wounds** and give a **[Feel No Pain 5+]** to **all non-vehicle** [excluding **walkers**] agains **psychic wounds**. In addition **Blank** units with this ability have a **Null level** of 1 or higher, specified in that unit's abilities.",
         "hidden": false
       }
     ],
@@ -361,7 +411,7 @@
             "characteristics": [
               {
                 "name": "Descriptions",
-                "$text": "In your **shooting** phase this model can use this ability instead of shooting if this unit is not **battle-shocked**.\nYou can select 1 unit withing 9\" of this model and improve it **toughness** by 1 or this model can make a **psychic** roll on 1D6:\n- On a 1: This unit is **battle-shocked**\n- Else: The **selected** unit gains +1 **toughness** and **melee strength**\nThis lasts till the start of your next **shooting** phase",
+                "$text": "In your **shooting** phase this model can use this ability instead of shooting if this unit is not **battle-shocked**.\nYou can select 1 unit withing 9\" of this model and improve it **toughness** by +1 or this model can make a **psychic** roll on 1D6:\n- On a 1: This unit is **battle-shocked**\n- Else: The **selected** unit gains +1 **toughness** and **melee strength**\nThis lasts till the start of your next **shooting** phase",
                 "typeId": "1917-301f-5d49-2f76"
               }
             ]
@@ -1421,7 +1471,7 @@
             "characteristics": [
               {
                 "name": "Descriptions",
-                "$text": "While this model is leading a unit, weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability.",
+                "$text": "While this model is leading a unit, weapons equipped by models in that unit have the **[SUSTAINED HITS 1]** ability.",
                 "typeId": "1917-301f-5d49-2f76"
               }
             ]
@@ -1566,7 +1616,7 @@
             "characteristics": [
               {
                 "name": "Descriptions",
-                "$text": "In your shooting phase, if **Magnus the Red: Deamon of Tzeench** is not **battle-shocked** you can make a **psychic roll** on 1D6:\n- On a 1 he is **battle-shocked**\n- Else: Select an enemy unit withing 24\". All ranged weapons gain **[Hazardous]** and **[Overcharged]** till the start of your next turn",
+                "$text": "In your shooting phase, if **Magnus the Red: Deamon of Tzeench** is not **battle-shocked** you can make a **psychic roll** on 1D6:\n- On a 1 he is **battle-shocked**\n- Else: Select an enemy unit withing 24\". All ranged weapons gain **[Hazardous]** and **[Overcharge]** till the start of your next turn",
                 "typeId": "1917-301f-5d49-2f76"
               }
             ]
@@ -1761,7 +1811,7 @@
             "characteristics": [
               {
                 "name": "Descriptions",
-                "$text": "In your shooting phase if **Alpharius** is not battle shocked you can use this instead of shooting. Select 1 **friendly infantry** unit that has had models destroyed or 1 **friendly unit** that was completly destroyed the make a **psychic roll** on 1D6:\n- On a 1 or 2: **Alpharius** is **battle-shocked** and suffers 2D3 **Psychic mortal wounds**\n- Else: You can make 2 **shotting attacks** with the destroyed models. If you selected a **friendly unit** that has just had models destroyed treat it as if thouse models where not destroyed and then preform 2 **shooting attack** with only thouse destroyed models. If you picked a **completely destroyed** unit you can **temporarly** place it withing 12\" of **Alpharius** with twice as many model then preform 2 *8shooting attcks** with the unit before then removing it",
+                "$text": "In your shooting phase if **Alpharius** is not battle shocked you can use this instead of shooting. Select 1 **friendly infantry** unit that has had models destroyed or 1 **friendly unit** that was completly destroyed the make a **psychic roll** on 1D6:\n- On a 1 or 2: **Alpharius** is **battle-shocked** and suffers 2D3 **Psychic mortal wounds**\n- Else: You can make 2 **shotting attacks** with the destroyed models. If you selected a **friendly unit** that has just had models destroyed treat it as if thouse models where not destroyed and then preform 2 **shooting attack** with only thouse destroyed models. If you picked a **completely destroyed** unit you can **temporarly** place it withing 12\" of **Alpharius** with twice as many model then preform 2 **shooting attacks** with the unit before then removing it",
                 "typeId": "1917-301f-5d49-2f76"
               }
             ]
@@ -1789,6 +1839,15 @@
         "import": true,
         "sortIndex": 14,
         "type": "upgrade",
+        "costs": [
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
         "profiles": [
           {
             "name": "Pestilent Fallout (Psychic Level 1)",
@@ -2335,6 +2394,909 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Lord of Rage",
+        "id": "ed6c-58b7-fda7-2161",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 12,
+        "type": "upgrade",
+        "profiles": [
+          {
+            "name": "Lord of Rage",
+            "id": "53af-d82d-dfdd-e476",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "At the start of **ever players turn** if **Angron** isnt **battle-shcoked** he can make a **psychic roll** on 1D6:\n- On a 1: He is **battle-shocked** and suffers D3 **psychic mortal wounds**\n- Else roll a D6 for each unit withing 12\" that is **below starting strength** and 2D6 for each one **below half starting strength**. For each 5+ on D6 **Angron** gains +1 melee attacks to **Gorefarther** while for each 8+ on the 2D6 he gains +1 melee attacks on **Gorechild**",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Venomancer",
+        "id": "8fb8-e8be-9c21-3666",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 20,
+        "type": "upgrade",
+        "costs": [
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "modifiers": [
+          {
+            "field": "name",
+            "scope": "parent",
+            "type": "append",
+            "value": "- Venomancer",
+            "conditions": [{"childId": "4f3a-f0f7-6647-348d", "childName": "Epic Hero", "field": "selections", "scope": "parent", "shared": true, "type": "notInstanceOf", "value": 1}]
+          },
+          {
+            "affects": "profiles.Unit",
+            "field": "name",
+            "scope": "parent",
+            "type": "append",
+            "value": "- Venomancer",
+            "conditions": [{"childId": "4f3a-f0f7-6647-348d", "childName": "Epic Hero", "field": "selections", "scope": "parent", "shared": true, "type": "notInstanceOf", "value": 1}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Posion Infusion (Psychic Level 2)",
+            "id": "de76-9b1d-6393-beb3",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "At the start of your **shooting** or **fight** phase this model can use this ability instead of shooting if this unit is not **battle-shocked**.\nYou can select 1 unit withing 9\" of this model and give its ranged or melee **Anti-Infantry 4+** or make a **psychic roll** on 1D6:\n- On a 1: This unit is **battle-shocked**\n- Else: The **selected** unit ranged or melee weapons gain**Anti-Infantry 2+**,**Anti-Monster 2+** and **Hazardous**\nThis lasts till the end of the phase it as casted.",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Hydras Bite",
+            "id": "268b-ea1c-ada4-d8aa",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "ef0f-48b1-1782-bea1", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "4ecc-8a47-773c-2358", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [
+              {"name": "Close-quarters", "id": "ec80-ea19-cca9-f2c2", "hidden": false, "targetId": "5238-5ad4-52f7-6eb4", "type": "rule"},
+              {"name": "Anti", "id": "0636-5d5b-13b3-3033", "hidden": false, "targetId": "4111-82e3-9444-e942", "type": "rule"},
+              {"name": "Psychic", "id": "f79d-6657-a605-c13f", "hidden": false, "targetId": "e9c4-2bb8-12ee-cd1b", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Hydras Bite",
+                "id": "de83-ae54-6040-9a5a",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "3\"", "typeId": "9896-9419-16a1-92fc"},
+                  {"name": "A", "$text": "4", "typeId": "3bb-c35f-f54-fb08"},
+                  {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+                  {"name": "S", "$text": "3", "typeId": "2229-f494-25db-c5d3"},
+                  {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+                  {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
+                  {"name": "Keywords", "$text": "Anti-Infantry 3+, Close-Quarters ,Psychic", "typeId": "7f1b-8591-2fcf-d01c"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Aetheric Lighting",
+            "id": "9758-5b07-3424-9ab3",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "c51b-e997-64e6-4e76", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "f001-283f-25fa-0cee", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [{"name": "Psychic", "id": "4ea2-4a96-f5c6-2115", "hidden": false, "targetId": "e9c4-2bb8-12ee-cd1b", "type": "rule"}],
+            "profiles": [
+              {
+                "name": "Aetheric lightning",
+                "id": "3e7c-706a-74a4-5e5b",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
+                  {"name": "A", "$text": "4", "typeId": "3bb-c35f-f54-fb08"},
+                  {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+                  {"name": "S", "$text": "3", "typeId": "2229-f494-25db-c5d3"},
+                  {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+                  {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+                  {"name": "Keywords", "$text": "Psychic", "typeId": "7f1b-8591-2fcf-d01c"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Umbrakinesis",
+        "id": "f0c6-28ba-b3c8-51b2",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 19,
+        "type": "upgrade",
+        "costs": [
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "modifiers": [
+          {
+            "field": "name",
+            "scope": "parent",
+            "type": "append",
+            "value": "- Umbrakinetic",
+            "conditions": [{"childId": "4f3a-f0f7-6647-348d", "childName": "Epic Hero", "field": "selections", "scope": "parent", "shared": true, "type": "notInstanceOf", "value": 1}]
+          },
+          {
+            "affects": "profiles.Unit",
+            "field": "name",
+            "scope": "parent",
+            "type": "append",
+            "value": "- Umbrakinetic",
+            "conditions": [{"childId": "4f3a-f0f7-6647-348d", "childName": "Epic Hero", "field": "selections", "scope": "parent", "shared": true, "type": "notInstanceOf", "value": 1}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Shadow Dome (Psychic Level 1)",
+            "id": "5aa4-b2c5-4516-1283",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "In your **Movement** phase this model can use this ability instead of moving if this unit is not **battle-shocked**.\nThis models unit gains a **Feel No Pain 6+** against **shooting attacks** if it doesn't already have one or this model can make a **psychic roll** on 1D6:\n- On a 1: This unit is **battle-shocked**\n- Else: This unit gains a **Feel No Pain 6+** against **shooting attacks** or if it already has one **improve** it by 1 to a **minimum** of a 4+",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Shadow Knives",
+            "id": "b9f2-163b-c504-fe27",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "d28a-fbd6-4d7e-d7b7", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "38d1-60a4-b41f-0aab", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [
+              {"name": "Sustained Hits", "id": "d17a-e485-c32d-56c9", "hidden": false, "targetId": "1897-c22c-9597-12b1", "type": "rule"},
+              {"name": "Psychic", "id": "2de9-2069-68ce-0966", "hidden": false, "targetId": "e9c4-2bb8-12ee-cd1b", "type": "rule"},
+              {"name": "Precision", "id": "7002-cd59-3d4b-8143", "hidden": false, "targetId": "9143-31ae-e0a6-6007", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Shadow Knives - Toss",
+                "id": "deb6-1679-e00d-28c9",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "12\"", "typeId": "9896-9419-16a1-92fc"},
+                  {"name": "A", "$text": "3", "typeId": "3bb-c35f-f54-fb08"},
+                  {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+                  {"name": "S", "$text": "3", "typeId": "2229-f494-25db-c5d3"},
+                  {"name": "AP", "$text": "-3", "typeId": "9ead-8a10-520-de15"},
+                  {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
+                  {"name": "Keywords", "$text": "Precision, Psychic", "typeId": "7f1b-8591-2fcf-d01c"}
+                ]
+              },
+              {
+                "name": "Shadow Knives - Slash",
+                "id": "41d9-c3f2-2e20-5a84",
+                "hidden": false,
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+                  {"name": "A", "$text": "4", "typeId": "2337-daa1-6682-b110"},
+                  {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
+                  {"name": "S", "$text": "5", "typeId": "ab33-d393-96ce-ccba"},
+                  {"name": "AP", "$text": "-3", "typeId": "41a0-1301-112a-e2f2"},
+                  {"name": "D", "$text": "2", "typeId": "3254-9fe6-d824-513e"},
+                  {"name": "Keywords", "$text": "Psychic, Sustained Hits 1", "typeId": "893f-9000-ccf7-648e"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Aetheric Lighting",
+            "id": "2051-209d-472a-6b1d",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "d134-d498-2318-abbd", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "8050-d3a7-823f-c38f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [{"name": "Psychic", "id": "6816-ec14-be8c-0e27", "hidden": false, "targetId": "e9c4-2bb8-12ee-cd1b", "type": "rule"}],
+            "profiles": [
+              {
+                "name": "Aetheric lightning",
+                "id": "33cb-7a1b-9558-f0f4",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
+                  {"name": "A", "$text": "4", "typeId": "3bb-c35f-f54-fb08"},
+                  {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+                  {"name": "S", "$text": "3", "typeId": "2229-f494-25db-c5d3"},
+                  {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+                  {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+                  {"name": "Keywords", "$text": "Psychic", "typeId": "7f1b-8591-2fcf-d01c"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Miasmakinesis",
+        "id": "e68d-7608-8bc6-2a90",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 14,
+        "type": "upgrade",
+        "costs": [
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "modifiers": [
+          {
+            "field": "name",
+            "scope": "parent",
+            "type": "append",
+            "value": "- Miasmakinetic",
+            "conditions": [{"childId": "4f3a-f0f7-6647-348d", "childName": "Epic Hero", "field": "selections", "scope": "parent", "shared": true, "type": "notInstanceOf", "value": 1}]
+          },
+          {
+            "affects": "profiles.Unit",
+            "field": "name",
+            "scope": "parent",
+            "type": "append",
+            "value": "- Miasmakinetic",
+            "conditions": [{"childId": "4f3a-f0f7-6647-348d", "childName": "Epic Hero", "field": "selections", "scope": "parent", "shared": true, "type": "notInstanceOf", "value": 1}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Miasmic Resilience",
+            "id": "bca8-4f99-1d98-4ade",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "In **ever fight phase** if this model is **locked in combat** and is not **battle-shocked** it can make a **psychic roll** on 1D6:\n- On a 1: This unit is **battle-shocked**\n- Else: Any weapons that have the **Anti** ability have it set to 6+",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Miasma Breath",
+            "id": "a34c-d15c-b33a-89b9",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "d55a-8206-6c44-759e", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "b939-b5c6-afbb-114a", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [
+              {"name": "Psychic", "id": "93b0-0c67-5a25-a2d2", "hidden": false, "targetId": "e9c4-2bb8-12ee-cd1b", "type": "rule"},
+              {"name": "Anti", "id": "0019-6573-1c2e-7ac1", "hidden": false, "targetId": "4111-82e3-9444-e942", "type": "rule"},
+              {"name": "Blast", "id": "933d-7903-e72a-1f74", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"},
+              {"name": "Torrent", "id": "f35b-0b64-dea7-5c70", "hidden": false, "targetId": "5edf-d619-23e0-9b56", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Miasma Breath",
+                "id": "79e1-3937-95ff-e207",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "12\"", "typeId": "9896-9419-16a1-92fc"},
+                  {"name": "A", "$text": "4", "typeId": "3bb-c35f-f54-fb08"},
+                  {"name": "BS", "$text": "N/A", "typeId": "94d-8a98-cf90-183e"},
+                  {"name": "S", "$text": "1", "typeId": "2229-f494-25db-c5d3"},
+                  {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
+                  {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+                  {"name": "Keywords", "$text": "Blast 1, Torrent, Psychic, Anti-Infantry 4+", "typeId": "7f1b-8591-2fcf-d01c"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Metallurgist ",
+        "id": "d47a-d788-566a-22aa",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 18,
+        "type": "upgrade",
+        "costs": [
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "modifiers": [
+          {
+            "field": "name",
+            "scope": "parent",
+            "type": "append",
+            "value": "- Metallurgist ",
+            "conditions": [{"childId": "4f3a-f0f7-6647-348d", "childName": "Epic Hero", "field": "selections", "scope": "parent", "shared": true, "type": "notInstanceOf", "value": 1}]
+          },
+          {
+            "affects": "profiles.Unit",
+            "field": "name",
+            "scope": "parent",
+            "type": "append",
+            "value": "- Metallurgist ",
+            "conditions": [{"childId": "4f3a-f0f7-6647-348d", "childName": "Epic Hero", "field": "selections", "scope": "parent", "shared": true, "type": "notInstanceOf", "value": 1}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Smithing Psyker (Psychic Level 1)",
+            "id": "620a-4110-4d07-3595",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "In your **shooting** phase this model can use this ability instead of shooting if this unit is not **battle-shocked**.\nYou can select 1 unit withing 9\" of this model and improve it **toughness** or **melee strength** by +1 or this model can make a **psychic** roll on 1D6:\n- On a 1: This unit is **battle-shocked**\n- Else: The **selected** unit gains +2 **toughness** or **melee strength**\nThis lasts till the start of your next **shooting** phase",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Forge Hammer",
+            "id": "aa4b-563e-774f-98e2",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "4cde-654d-137b-53b8", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "6515-8d4f-b718-c49b", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [
+              {"name": "Psychic", "id": "950f-8e2d-7e6a-9f61", "hidden": false, "targetId": "e9c4-2bb8-12ee-cd1b", "type": "rule"},
+              {"name": "Devastating Wounds", "id": "e787-11f8-b2e5-b0f2", "hidden": false, "targetId": "be1e-ac8e-1e2c-3528", "type": "rule"},
+              {"name": "Cleave", "id": "aa91-27d9-4706-6750", "hidden": false, "targetId": "bf16-5d16-4725-f912", "type": "rule"}
+            ],
+            "modifiers": [{"affects": "profiles.Melee Weapons", "field": "95d1-95f-45b4-11d6", "type": "increment", "value": 1}],
+            "profiles": [
+              {
+                "name": "Forge Hammer",
+                "id": "ca93-115e-88dd-bb76",
+                "hidden": false,
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+                  {"name": "A", "$text": "3", "typeId": "2337-daa1-6682-b110"},
+                  {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
+                  {"name": "S", "$text": "8", "typeId": "ab33-d393-96ce-ccba"},
+                  {"name": "AP", "$text": "-3", "typeId": "41a0-1301-112a-e2f2"},
+                  {"name": "D", "$text": "3", "typeId": "3254-9fe6-d824-513e"},
+                  {"name": "Keywords", "$text": "Devastating Wounds, Cleave 1, Psychic", "typeId": "893f-9000-ccf7-648e"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Aetheric Lighting",
+            "id": "088a-d48f-5ded-658f",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "8920-b574-4f0e-949b", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "c46a-aee3-3060-95fc", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [{"name": "Psychic", "id": "ca0d-269f-6738-8a40", "hidden": false, "targetId": "e9c4-2bb8-12ee-cd1b", "type": "rule"}],
+            "profiles": [
+              {
+                "name": "Aetheric lightning",
+                "id": "e4cc-782a-0411-3103",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
+                  {"name": "A", "$text": "4", "typeId": "3bb-c35f-f54-fb08"},
+                  {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+                  {"name": "S", "$text": "3", "typeId": "2229-f494-25db-c5d3"},
+                  {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+                  {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+                  {"name": "Keywords", "$text": "Psychic", "typeId": "7f1b-8591-2fcf-d01c"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fury of the Salamander",
+        "id": "b87d-e108-abe7-478c",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 18,
+        "type": "upgrade",
+        "costs": [
+          {"name": "Crusade Points", "typeId": "b03b-c239-15a5-da55", "value": 0},
+          {"name": "Crusade: Battle Honours", "typeId": "75bb-ded1-c86d-bdf0", "value": 0},
+          {"name": "Crusade: Experience", "typeId": "a623-fe74-1d33-cddf", "value": 0},
+          {"name": "Crusade: Weapon Modifications", "typeId": "716d-91b7-d55a-1022", "value": 0},
+          {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
+          {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
+          {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+        ],
+        "modifiers": [
+          {
+            "field": "name",
+            "scope": "parent",
+            "type": "append",
+            "value": "- Promethan Devotee",
+            "conditions": [{"childId": "4f3a-f0f7-6647-348d", "childName": "Epic Hero", "field": "selections", "scope": "parent", "shared": true, "type": "notInstanceOf", "value": 1}]
+          },
+          {
+            "affects": "profiles.Unit",
+            "field": "name",
+            "scope": "parent",
+            "type": "append",
+            "value": "- Promethan Devotee",
+            "conditions": [{"childId": "4f3a-f0f7-6647-348d", "childName": "Epic Hero", "field": "selections", "scope": "parent", "shared": true, "type": "notInstanceOf", "value": 1}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Salamander's Fury (Psychic Level 2)",
+            "id": "cdd7-d903-0cce-e1a2",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "At the start of your turn if this model is not **battle-shocked** it can make a **psychic roll** on 1D6:\n- On a 1: Its is **battle-shocked**\n- Else: All **enemy units** withing 18\" have -2\" to **movement** and **advance**/**charge** rolls",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Elemental Horror",
+            "id": "f6fb-6bf9-6c37-d908",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "1d54-323b-4ef8-d6b7", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "8371-a704-4cec-17d2", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [
+              {"name": "Psychic", "id": "6fac-d952-f9d8-2fd9", "hidden": false, "targetId": "e9c4-2bb8-12ee-cd1b", "type": "rule"},
+              {"name": "Pinning", "id": "3ab9-65ab-b88e-d272", "hidden": false, "targetId": "a4b9-9c88-086f-205e", "type": "rule"},
+              {"name": "Torrent", "id": "5666-e4d3-68bc-7c13", "hidden": false, "targetId": "5edf-d619-23e0-9b56", "type": "rule"},
+              {"name": "Devastating Wounds", "id": "c2fb-d41d-fee5-6964", "hidden": false, "targetId": "be1e-ac8e-1e2c-3528", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Elemental Horror",
+                "id": "1853-025f-1823-239b",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "12\"", "typeId": "9896-9419-16a1-92fc"},
+                  {"name": "A", "$text": "3", "typeId": "3bb-c35f-f54-fb08"},
+                  {"name": "BS", "$text": "N/A", "typeId": "94d-8a98-cf90-183e"},
+                  {"name": "S", "$text": "7", "typeId": "2229-f494-25db-c5d3"},
+                  {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+                  {"name": "D", "$text": "2", "typeId": "a354-c1c8-a745-f9e3"},
+                  {"name": "Keywords", "$text": "Blast 1, Pinning, Devastating Wounds, Psychic", "typeId": "7f1b-8591-2fcf-d01c"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Psychic Artillery",
+        "id": "794e-1be6-94db-4991",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 4,
+        "type": "upgrade",
+        "modifiers": [
+          {"field": "category", "scope": "parent", "type": "add", "value": "8cab-448d-37b7-32bc"},
+          {
+            "field": "name",
+            "scope": "parent",
+            "type": "append",
+            "value": "- Artillerist",
+            "conditions": [{"childId": "4f3a-f0f7-6647-348d", "childName": "Epic Hero", "field": "selections", "scope": "parent", "shared": true, "type": "notInstanceOf", "value": 1}]
+          },
+          {
+            "affects": "profiles.Unit",
+            "field": "name",
+            "scope": "parent",
+            "type": "append",
+            "value": "- Artillerist",
+            "conditions": [{"childId": "4f3a-f0f7-6647-348d", "childName": "Epic Hero", "field": "selections", "scope": "parent", "shared": true, "type": "notInstanceOf", "value": 1}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Lord Artilleriest (Psychic Level 2)",
+            "id": "c6c1-a9f1-e336-ebe4",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "In your shooting phase if this mode is not **battle-shocked** it can make a **psychic roll** on 1D6:\n- On a 1: This unit is **Battle-shocked**\n- Else: Select 1 **friendly Artillery unit** withing 12\". All **[indirect Fire]** weapons fail on 1 less [ So without a spotter it be 3's or less or with a spotter 2's or less]",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Psychic Bombardment",
+            "id": "d152-6a53-f6c3-8524",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "9a97-bec4-750a-34b7", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "c144-7d94-2978-5b5a", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [
+              {"name": "Indirect Fire", "id": "8b08-ad77-3670-401c", "hidden": false, "targetId": "4ddd-4e29-acdd-5e6d", "type": "rule"},
+              {"name": "Psychic", "id": "a50e-cc45-428b-68e0", "hidden": false, "targetId": "e9c4-2bb8-12ee-cd1b", "type": "rule"},
+              {"name": "Devastating Wounds", "id": "085b-14d3-dae6-10ca", "hidden": false, "targetId": "be1e-ac8e-1e2c-3528", "type": "rule"},
+              {"name": "Blast", "id": "761a-f613-268e-ca59", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Psychic Bombardment ➤ Cluster Fire",
+                "id": "944f-7fd3-9229-4119",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "36\"", "typeId": "9896-9419-16a1-92fc"},
+                  {"name": "A", "$text": "6", "typeId": "3bb-c35f-f54-fb08"},
+                  {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+                  {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
+                  {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
+                  {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+                  {"name": "Keywords", "$text": "Blast 1, Psychic, Indirect Fire", "typeId": "7f1b-8591-2fcf-d01c"}
+                ]
+              },
+              {
+                "name": "Psychic Bombardment ➤ High Impact Round",
+                "id": "13d5-c4a1-0c2d-908f",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "36\"", "typeId": "9896-9419-16a1-92fc"},
+                  {"name": "A", "$text": "2", "typeId": "3bb-c35f-f54-fb08"},
+                  {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+                  {"name": "S", "$text": "9", "typeId": "2229-f494-25db-c5d3"},
+                  {"name": "AP", "$text": "-4", "typeId": "9ead-8a10-520-de15"},
+                  {"name": "D", "$text": "3", "typeId": "a354-c1c8-a745-f9e3"},
+                  {"name": "Keywords", "$text": "Devastating Wounds, Psychic, Indirect Fire", "typeId": "7f1b-8591-2fcf-d01c"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Aetheric Lighting",
+            "id": "1f89-7240-3e04-658b",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "3ba6-8587-522b-1b59", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "d1a5-e8f8-eb42-92d3", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [{"name": "Psychic", "id": "c3ee-36c9-5304-5077", "hidden": false, "targetId": "e9c4-2bb8-12ee-cd1b", "type": "rule"}],
+            "profiles": [
+              {
+                "name": "Aetheric lightning",
+                "id": "c900-441c-db25-859c",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
+                  {"name": "A", "$text": "4", "typeId": "3bb-c35f-f54-fb08"},
+                  {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+                  {"name": "S", "$text": "3", "typeId": "2229-f494-25db-c5d3"},
+                  {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+                  {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+                  {"name": "Keywords", "$text": "Psychic", "typeId": "7f1b-8591-2fcf-d01c"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dreadnation",
+        "id": "c9af-15fb-0a21-68f5",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 8,
+        "type": "upgrade",
+        "modifiers": [
+          {
+            "field": "name",
+            "scope": "parent",
+            "type": "append",
+            "value": "- Dreader",
+            "conditions": [{"childId": "4f3a-f0f7-6647-348d", "childName": "Epic Hero", "field": "selections", "scope": "parent", "shared": true, "type": "notInstanceOf", "value": 1}]
+          },
+          {
+            "affects": "profiles.Unit",
+            "field": "name",
+            "scope": "parent",
+            "type": "append",
+            "value": "- Dreader",
+            "conditions": [{"childId": "4f3a-f0f7-6647-348d", "childName": "Epic Hero", "field": "selections", "scope": "parent", "shared": true, "type": "notInstanceOf", "value": 1}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Dread Amplifier (Psychic Level 2)",
+            "id": "9ea9-f1b9-def5-b3c7",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "At the start of the **opoonents turn** before any **battle-shock** rolls are made this model can make a **psychic roll** on 1D6 or 2D6 if this unit is **battle-shocked**\n- On any 1's or **Double's**: This unit is **battle-shocked** or if it already is suffers 1 **psychic mortal wound**\n- Else: All **friendly Night Lord Infantry or Monster units** wholly withing 9\" that reduce a units **leadership charecteristic** have +1 to the value they **reduce it**",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Bat Swarm",
+            "id": "fa2a-ae34-d8a5-8543",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "9a96-40ed-cd99-82ab", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "de95-83f4-9751-eb43", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [
+              {"name": "Close-quarters", "id": "15a3-d1e7-964f-2386", "hidden": false, "targetId": "5238-5ad4-52f7-6eb4", "type": "rule"},
+              {"name": "Sustained Hits", "id": "9761-25a7-34bc-8b15", "hidden": false, "targetId": "1897-c22c-9597-12b1", "type": "rule"},
+              {"name": "Lethal Hits", "id": "9720-880f-522e-afd0", "hidden": false, "targetId": "d1d1-611e-5191-1095", "type": "rule"},
+              {"name": "Psychic", "id": "e135-958a-0087-7ef1", "hidden": false, "targetId": "e9c4-2bb8-12ee-cd1b", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Bat Swarm",
+                "id": "6746-9e30-b2cf-d3bb",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "12\"", "typeId": "9896-9419-16a1-92fc"},
+                  {"name": "A", "$text": "10", "typeId": "3bb-c35f-f54-fb08"},
+                  {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+                  {"name": "S", "$text": "3", "typeId": "2229-f494-25db-c5d3"},
+                  {"name": "AP", "$text": "0", "typeId": "9ead-8a10-520-de15"},
+                  {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+                  {"name": "Keywords", "$text": "Susatined Hits 3, Lethal Hits, Psychic, Close-Quarters", "typeId": "7f1b-8591-2fcf-d01c"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Aetheric Lighting",
+            "id": "c7ea-2494-ef0a-705a",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "1387-083e-15be-40b3", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "5120-6e6b-d6c4-8cd4", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [{"name": "Psychic", "id": "5139-dd6c-49d1-5586", "hidden": false, "targetId": "e9c4-2bb8-12ee-cd1b", "type": "rule"}],
+            "profiles": [
+              {
+                "name": "Aetheric lightning",
+                "id": "e46d-0d25-41ec-bef4",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
+                  {"name": "A", "$text": "4", "typeId": "3bb-c35f-f54-fb08"},
+                  {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+                  {"name": "S", "$text": "3", "typeId": "2229-f494-25db-c5d3"},
+                  {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+                  {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+                  {"name": "Keywords", "$text": "Psychic", "typeId": "7f1b-8591-2fcf-d01c"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ferrokinesis",
+        "id": "a3e3-5d7f-8101-9495",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 10,
+        "type": "upgrade",
+        "modifiers": [
+          {
+            "affects": "profiles.Unit",
+            "field": "name",
+            "scope": "parent",
+            "type": "append",
+            "value": "- Ferrokinetic",
+            "conditions": [{"childId": "4f3a-f0f7-6647-348d", "childName": "Epic Hero", "field": "selections", "scope": "parent", "shared": true, "type": "notInstanceOf", "value": 1}]
+          },
+          {
+            "field": "name",
+            "scope": "parent",
+            "type": "append",
+            "value": "- Ferrokinetic",
+            "conditions": [{"childId": "4f3a-f0f7-6647-348d", "childName": "Epic Hero", "field": "selections", "scope": "parent", "shared": true, "type": "notInstanceOf", "value": 1}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Ferrus Fists (Psychic Level 2)",
+            "id": "5823-b9ef-10d1-dc10",
+            "hidden": false,
+            "typeId": "7e03-38c2-7fea-e955",
+            "typeName": "Psychic Abilities",
+            "characteristics": [
+              {
+                "name": "Descriptions",
+                "$text": "At the start of your **fight phase** if this model is not **battle-shocked** you can use this ability:\nThis units **Fisticuffs** gain +2 strength and +1 damage or this model can make a **psychic roll** on 1D6:\n- On a 1: This model is **battle-shocked**\n- Else: This units **Fisticuffs** gain +2 attacks, Strength, AP and damage and gained **[Devastating wounds]**",
+                "typeId": "1917-301f-5d49-2f76"
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Aetheric Lighting",
+            "id": "6945-e2ad-c064-7566",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "e448-3779-088e-af1b", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "332c-005f-486e-75f1", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [{"name": "Psychic", "id": "6133-ffa1-2211-fc1c", "hidden": false, "targetId": "e9c4-2bb8-12ee-cd1b", "type": "rule"}],
+            "profiles": [
+              {
+                "name": "Aetheric lightning",
+                "id": "5196-283d-a880-51e0",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "18\"", "typeId": "9896-9419-16a1-92fc"},
+                  {"name": "A", "$text": "4", "typeId": "3bb-c35f-f54-fb08"},
+                  {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
+                  {"name": "S", "$text": "3", "typeId": "2229-f494-25db-c5d3"},
+                  {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+                  {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+                  {"name": "Keywords", "$text": "Psychic", "typeId": "7f1b-8591-2fcf-d01c"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Iron Spike Wave",
+            "id": "ff15-3583-62b0-c0c2",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "49ba-a95d-38af-4d3c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "ae20-c3e8-7262-a508", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [
+              {"name": "Torrent", "id": "6945-c548-550e-4f2a", "hidden": false, "targetId": "5edf-d619-23e0-9b56", "type": "rule"},
+              {"name": "Blast", "id": "2cf6-e7b3-5475-f1a1", "hidden": false, "targetId": "6c1f-1cf7-ff25-c99e", "type": "rule"},
+              {"name": "Psychic", "id": "3f46-f183-97a3-e19f", "hidden": false, "targetId": "e9c4-2bb8-12ee-cd1b", "type": "rule"}
+            ],
+            "profiles": [
+              {
+                "name": "Iron Spike Wave",
+                "id": "c25a-204d-54f9-c273",
+                "hidden": false,
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "characteristics": [
+                  {"name": "Range", "$text": "12", "typeId": "9896-9419-16a1-92fc"},
+                  {"name": "A", "$text": "6", "typeId": "3bb-c35f-f54-fb08"},
+                  {"name": "BS", "$text": "N/A", "typeId": "94d-8a98-cf90-183e"},
+                  {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
+                  {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
+                  {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
+                  {"name": "Keywords", "$text": "Blast 3, Torrent, Psychic", "typeId": "7f1b-8591-2fcf-d01c"}
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "sharedSelectionEntryGroups": [
@@ -2350,7 +3312,8 @@
           {"name": "Pyromancy", "id": "9adb-76c1-7432-29d2", "hidden": false, "import": true, "targetId": "da86-3f6a-6a35-1ec0", "type": "selectionEntry"},
           {"name": "Telekinesis", "id": "4720-3f5f-6d2b-4567", "hidden": false, "import": true, "targetId": "2998-c194-b2aa-ebb7", "type": "selectionEntry"},
           {"name": "Telepathy", "id": "0067-027a-be9e-f00a", "hidden": false, "import": true, "targetId": "7c6b-b13b-4c0f-3894", "type": "selectionEntry"},
-          {"name": "Thaumaturgy", "id": "7f0d-87ab-f2a2-3d3c", "hidden": false, "import": true, "targetId": "9984-d286-3ec2-e4fc", "type": "selectionEntry"}
+          {"name": "Thaumaturgy", "id": "7f0d-87ab-f2a2-3d3c", "hidden": false, "import": true, "targetId": "9984-d286-3ec2-e4fc", "type": "selectionEntry"},
+          {"name": "Legion Power", "id": "442b-e9d2-21b0-3214", "hidden": false, "import": true, "targetId": "0d64-68e8-cfc5-7dfc", "type": "selectionEntryGroup"}
         ]
       },
       {
@@ -2379,7 +3342,8 @@
             "import": true,
             "targetId": "2e3f-8f83-a581-722c",
             "type": "selectionEntry",
-            "constraints": [{"id": "2387-8826-37de-3214", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+            "constraints": [{"id": "2387-8826-37de-3214", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [{"affects": "profiles.Psychic Abilities", "arg": "+1", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "D3"}]
           },
           {
             "name": "Shadows of Past and Future",
@@ -2389,7 +3353,11 @@
             "targetId": "bccb-a4a2-60f5-d40a",
             "type": "selectionEntry",
             "constraints": [{"id": "556b-6e0b-e67a-8abe", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
-            "modifiers": [{"affects": "profiles.Psychic Abilities", "arg": "Sevatar", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "Lord of the Moon"}]
+            "modifiers": [
+              {"affects": "profiles.Psychic Abilities", "arg": "Sevatar", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "Lord of the Moon"},
+              {"affects": "profiles.Psychic Abilities", "arg": "+1 attacks", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "+D3 attacks"},
+              {"affects": "profiles.Psychic Abilities", "arg": "Night's Whisper", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "Blue Scribs Staff"}
+            ]
           },
           {
             "name": "Mortarions True power",
@@ -2401,7 +3369,8 @@
             "constraints": [{"id": "98d8-6da8-256e-85bb", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
             "modifiers": [
               {"affects": "profiles.Psychic Abilities", "arg": "Death Guard", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "Thousand Sons"},
-              {"affects": "profiles.Psychic Abilities", "arg": "Mortarion: Deamon of Nurgle", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "Lord of the Moon"}
+              {"affects": "profiles.Psychic Abilities", "arg": "Mortarion: Deamon of Nurgle", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "Lord of the Moon"},
+              {"affects": "profiles.Psychic Abilities", "arg": "up to 5\"", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "up to 3D3\""}
             ]
           },
           {
@@ -2420,7 +3389,8 @@
             "import": true,
             "targetId": "4916-eacc-3a7e-bf22",
             "type": "selectionEntry",
-            "constraints": [{"id": "a32f-a9ad-7aff-736b", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+            "constraints": [{"id": "a32f-a9ad-7aff-736b", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [{"affects": "profiles.Psychic Abilities", "arg": "1]", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "D3]"}]
           },
           {
             "name": "Athanaen",
@@ -2438,7 +3408,8 @@
             "import": true,
             "targetId": "9984-d286-3ec2-e4fc",
             "type": "selectionEntry",
-            "constraints": [{"id": "2ba5-5b02-7efb-40b0", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+            "constraints": [{"id": "2ba5-5b02-7efb-40b0", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [{"affects": "profiles.Psychic Abilities", "arg": "Heal(1)", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "Heal(D3)"}]
           },
           {
             "name": "Magnus's Own Creations",
@@ -2455,7 +3426,8 @@
                 "field": "1917-301f-5d49-2f76",
                 "type": "replace",
                 "value": "Lord of the Moon"
-              }
+              },
+              {"affects": "profiles.Psychic Abilities", "arg": "+2", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "D6"}
             ]
           },
           {
@@ -2465,7 +3437,8 @@
             "import": true,
             "targetId": "0d8d-2d4f-0308-5961",
             "type": "selectionEntry",
-            "constraints": [{"id": "4365-cbce-ba17-cea6", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+            "constraints": [{"id": "4365-cbce-ba17-cea6", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [{"affects": "profiles.Psychic Abilities", "arg": "Add 1", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "Add D3"}]
           },
           {
             "name": "Hydras Hidden Powers",
@@ -2493,7 +3466,8 @@
             "import": true,
             "targetId": "4842-b9be-ecd4-9eb2",
             "type": "selectionEntry",
-            "constraints": [{"id": "5759-4976-22bd-a413", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+            "constraints": [{"id": "5759-4976-22bd-a413", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [{"affects": "profiles.Psychic Abilities", "arg": "+3\"", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "+2D3\""}]
           },
           {
             "name": "Psy-Synchronicity",
@@ -2511,7 +3485,8 @@
             "import": true,
             "targetId": "e02b-de59-943e-d2fc",
             "type": "selectionEntry",
-            "constraints": [{"id": "34da-e90c-1128-d686", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+            "constraints": [{"id": "34da-e90c-1128-d686", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [{"affects": "profiles.Psychic Abilities", "arg": "2", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "D6"}]
           },
           {
             "name": "Raptora",
@@ -2529,7 +3504,11 @@
             "import": true,
             "targetId": "82b3-b409-ac3b-7460",
             "type": "selectionEntry",
-            "constraints": [{"id": "aba1-6acf-fb73-8a4f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+            "constraints": [{"id": "aba1-6acf-fb73-8a4f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [
+              {"affects": "profiles.Psychic Abilities", "arg": "by 1", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "by D3"},
+              {"affects": "profiles.Psychic Abilities", "arg": "by 1", "field": "1917-301f-5d49-2f76", "type": "append", "value": "(Roll before each diffrent weapon)"}
+            ]
           },
           {
             "name": "Tzeenche's Infernal Sorcery",
@@ -2592,7 +3571,8 @@
             "import": true,
             "targetId": "048b-d64e-17a3-d830",
             "type": "selectionEntry",
-            "constraints": [{"id": "bb14-5504-6bea-db51", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+            "constraints": [{"id": "bb14-5504-6bea-db51", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [{"affects": "profiles.Psychic Abilities", "arg": "+1", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "D3"}]
           },
           {
             "name": "Delphos Serpentis",
@@ -2601,7 +3581,8 @@
             "import": true,
             "targetId": "ca12-b90a-d17c-98d1",
             "type": "selectionEntry",
-            "constraints": [{"id": "75aa-2fbe-283b-b046", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+            "constraints": [{"id": "75aa-2fbe-283b-b046", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [{"affects": "profiles.Psychic Abilities", "arg": "(1)", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "(D3)"}]
           },
           {
             "name": "Divination",
@@ -2658,18 +3639,30 @@
             "constraints": [{"id": "7295-dcfa-82d7-1f92", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
             "modifiers": [
               {"affects": "profiles.Psychic Abilities", "arg": "Perturabo", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "Lord of the Moon"},
-              {"affects": "profiles.Psychic Abilities", "arg": "Iron Warrior", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "Thousand Sons"}
+              {"affects": "profiles.Psychic Abilities", "arg": "Iron Warrior", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "Thousand Sons"},
+              {"affects": "profiles.Psychic Abilities", "arg": "-1", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "-D3"},
+              {
+                "affects": "profiles.Psychic Abilities",
+                "arg": "-1",
+                "field": "1917-301f-5d49-2f76",
+                "join": "\n\n",
+                "type": "append",
+                "value": "(Roll before each diffrent weapon)"
+              }
             ]
           },
           {
-            "name": "Voids Calling",
+            "name": "Witchblood",
             "id": "2218-0d4e-7e67-ea21",
             "hidden": false,
             "import": true,
-            "targetId": "ff53-3404-05cf-3832",
+            "targetId": "3443-4df7-f8ec-5a66",
             "type": "selectionEntry",
             "constraints": [{"id": "0ed9-eefd-1fd1-e842", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
-            "modifiers": [{"affects": "profiles.Psychic Abilities", "arg": "Corvus Corax", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "Lord of the Moon"}]
+            "modifiers": [
+              {"affects": "profiles.Psychic Abilities", "arg": "Typhus", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "Lord of the Moon"},
+              {"affects": "profiles.Psychic Abilities", "arg": "and 1", "field": "1917-301f-5d49-2f76", "type": "replace", "value": ""}
+            ]
           },
           {
             "name": "Drake's Heart",
@@ -2681,7 +3674,458 @@
             "constraints": [{"id": "11ec-1c40-ea2d-eac4", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
             "modifiers": [
               {"affects": "profiles.Psychic Abilities", "arg": "Vulkan", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "Lord of the Moon"},
-              {"affects": "profiles.Psychic Abilities", "arg": "Salamander", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "Thousand Sons"}
+              {"affects": "profiles.Psychic Abilities", "arg": "salamander", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "thousand sons"}
+            ]
+          },
+          {
+            "name": "Lord of Rage",
+            "id": "0c77-ad5e-cff7-af41",
+            "hidden": false,
+            "import": true,
+            "targetId": "ed6c-58b7-fda7-2161",
+            "type": "selectionEntry",
+            "constraints": [{"id": "6632-2106-f6da-3d8f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [
+              {"affects": "profiles.Psychic Abilities", "arg": "Angron", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "Lord of the Moon"},
+              {"affects": "profiles.Psychic Abilities", "arg": "Gorefarther", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "Blue Scribs Staff"},
+              {"affects": "profiles.Psychic Abilities", "arg": "Gorechild", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "Blue Scribs Staff"},
+              {"affects": "profiles.Psychic Abilities", "arg": "+1", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "+D3"}
+            ]
+          },
+          {
+            "name": "Miasmakinesis",
+            "id": "caa9-4a38-9f84-41d4",
+            "hidden": false,
+            "import": true,
+            "targetId": "e68d-7608-8bc6-2a90",
+            "type": "selectionEntry",
+            "constraints": [{"id": "a489-6937-f4fd-5284", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+          },
+          {
+            "name": "Typhus's Psychic Hive",
+            "id": "62a3-eb07-def8-e506",
+            "hidden": false,
+            "import": true,
+            "targetId": "843b-f0e4-4837-513e",
+            "type": "selectionEntry",
+            "constraints": [{"id": "2634-0f7e-2df9-5fe4", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [
+              {
+                "affects": "profiles.Psychic Abilities",
+                "arg": "Typhus: Herald of the Plague Farther",
+                "field": "1917-301f-5d49-2f76",
+                "type": "replace",
+                "value": "Lord of the Moon"
+              },
+              {"affects": "profiles.Psychic Abilities", "arg": "D3+3", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "3D3"}
+            ]
+          },
+          {
+            "name": "Repressed Resilience",
+            "id": "b74d-4d63-a37d-7f87",
+            "hidden": false,
+            "import": true,
+            "targetId": "3fcb-ccfe-4fa9-cfdb",
+            "type": "selectionEntry",
+            "constraints": [{"id": "5292-cf9c-2ffa-b364", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [
+              {"affects": "profiles.Psychic Abilities", "arg": "Mortarion", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "Lord of the Moon"},
+              {"affects": "profiles.Psychic Abilities", "arg": "have -1", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "have -D3"},
+              {"affects": "profiles.Psychic Abilities", "field": "1917-301f-5d49-2f76", "type": "append", "value": "(Roll the negative modifier after each **psychic roll**)"}
+            ]
+          },
+          {
+            "name": "Shielded by hate",
+            "id": "ca0c-701d-66cd-186d",
+            "hidden": false,
+            "import": true,
+            "targetId": "eb1a-0aab-b6d8-ea1a",
+            "type": "selectionEntry",
+            "constraints": [{"id": "8cc8-e881-9479-2f1a", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [{"affects": "profiles.Psychic Abilities", "arg": "Crysos Morturg", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "Lord of the Moon"}]
+          },
+          {
+            "name": "Voids Calling",
+            "id": "4c31-e7fb-771f-95e5",
+            "hidden": false,
+            "import": true,
+            "targetId": "ff53-3404-05cf-3832",
+            "type": "selectionEntry",
+            "constraints": [{"id": "f7f7-e56e-0902-4be6", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [
+              {"affects": "profiles.Psychic Abilities", "arg": "Corvus Corax", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "Lord of the Moon"},
+              {"affects": "profiles.Psychic Abilities", "arg": "6\"", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "3D6\""},
+              {
+                "affects": "profiles.Psychic Abilities",
+                "arg": "6\"",
+                "field": "1917-301f-5d49-2f76",
+                "join": "\n\n",
+                "type": "append",
+                "value": "(Roll this after you use this **Psychic ability**)"
+              }
+            ]
+          },
+          {
+            "name": "Fury of the Salamander",
+            "id": "7e3d-708e-f3af-c2be",
+            "hidden": false,
+            "import": true,
+            "targetId": "b87d-e108-abe7-478c",
+            "type": "selectionEntry",
+            "constraints": [{"id": "a138-8bdf-4e8c-cc8e", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [{"affects": "profiles.Psychic Abilities", "arg": "Corvus Corax", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "Lord of the Moon"}]
+          },
+          {
+            "name": "Metallurgist ",
+            "id": "4e22-c389-1586-373e",
+            "hidden": false,
+            "import": true,
+            "targetId": "d47a-d788-566a-22aa",
+            "type": "selectionEntry",
+            "constraints": [{"id": "3f61-fd70-9c5b-11df", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [
+              {"affects": "profiles.Psychic Abilities", "arg": "Corvus Corax", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "Lord of the Moon"},
+              {"affects": "profiles.Psychic Abilities", "arg": "+1", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "+D3"},
+              {"affects": "profiles.Psychic Abilities", "arg": "+2", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "+D6"}
+            ]
+          },
+          {
+            "name": "Umbrakinesis",
+            "id": "9e41-eac3-87c4-a03d",
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c6-28ba-b3c8-51b2",
+            "type": "selectionEntry",
+            "constraints": [{"id": "2941-f1a9-d6e4-f0b2", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+          },
+          {
+            "name": "Venomancer",
+            "id": "ebf5-0c1c-a891-7511",
+            "hidden": false,
+            "import": true,
+            "targetId": "8fb8-e8be-9c21-3666",
+            "type": "selectionEntry",
+            "constraints": [{"id": "3c75-6543-3350-e2b2", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+          },
+          {
+            "name": "Psychic Artillery",
+            "id": "26d0-881e-582a-721d",
+            "hidden": false,
+            "import": true,
+            "targetId": "794e-1be6-94db-4991",
+            "type": "selectionEntry",
+            "constraints": [{"id": "06f3-3b9c-45c6-227a", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}]
+          },
+          {
+            "name": "Dreadnation",
+            "id": "87d0-1b6a-632f-3072",
+            "hidden": false,
+            "import": true,
+            "targetId": "c9af-15fb-0a21-68f5",
+            "type": "selectionEntry",
+            "constraints": [{"id": "b7c4-162d-844a-2ced", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [
+              {"affects": "profiles.Psychic Abilities", "arg": "Night Lord", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "Thousand Son"},
+              {"affects": "profiles.Psychic Abilities", "arg": "+1", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "D3"}
+            ]
+          },
+          {
+            "name": "ferrokinesis",
+            "id": "99bd-5755-1bec-8c84",
+            "hidden": false,
+            "import": true,
+            "targetId": "a3e3-5d7f-8101-9495",
+            "type": "selectionEntry",
+            "constraints": [{"id": "82f6-357c-72bd-f5f2", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "modifiers": [
+              {"affects": "profiles.Psychic Abilities", "arg": "+2", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "D6"},
+              {"affects": "profiles.Psychic Abilities", "arg": "+1", "field": "1917-301f-5d49-2f76", "type": "replace", "value": "D3"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Legion Power",
+        "id": "0d64-68e8-cfc5-7dfc",
+        "hidden": false,
+        "entryLinks": [
+          {
+            "name": "Venomancer",
+            "id": "dce5-f60d-d302-844d",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 20,
+            "targetId": "8fb8-e8be-9c21-3666",
+            "type": "selectionEntry",
+            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "3583-4c5d-bf42-1f69",
+                    "childName": "Faction: Alpha Legion",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Umbrakinesis",
+            "id": "fbf0-ab3b-e069-c168",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 19,
+            "targetId": "f0c6-28ba-b3c8-51b2",
+            "type": "selectionEntry",
+            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "51c7-eb8f-f617-0348",
+                    "childName": "Faction: Raven Gaurd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Miasmakinesis",
+            "id": "163f-19e3-29ad-027c",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 14,
+            "targetId": "e68d-7608-8bc6-2a90",
+            "type": "selectionEntry",
+            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "15c4-e42a-41d1-5ded",
+                    "childName": "Faction: Death Gaurd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Nurgle's Gifts",
+            "id": "03a1-76d1-a5ab-c581",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 14,
+            "targetId": "deaa-7795-51e2-8472",
+            "type": "selectionEntry",
+            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 20}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "15c4-e42a-41d1-5ded",
+                    "childName": "Faction: Death Gaurd",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "ab5d-ae96-512e-2748",
+                    "childName": "Traitor",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Metallurgist ",
+            "id": "38b6-f583-9b01-a2b8",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 18,
+            "targetId": "d47a-d788-566a-22aa",
+            "type": "selectionEntry",
+            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "3826-6483-b50e-6b8f",
+                    "childName": "Faction: Salamanders",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Fury of the Salamander",
+            "id": "e98c-b3f0-5db0-9977",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 18,
+            "targetId": "b87d-e108-abe7-478c",
+            "type": "selectionEntry",
+            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "3826-6483-b50e-6b8f",
+                    "childName": "Faction: Salamanders",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Psychic Artillery",
+            "id": "ee4e-8e68-75d2-8d61",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 4,
+            "targetId": "794e-1be6-94db-4991",
+            "type": "selectionEntry",
+            "constraints": [{"id": "03fc-6c06-a0ae-726f", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 20}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "646b-2fc9-f9e9-3295",
+                    "childName": "Faction: Iron Warrior",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Dreadnation",
+            "id": "7ac2-a0cb-38bd-5e6f",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 8,
+            "targetId": "c9af-15fb-0a21-68f5",
+            "type": "selectionEntry",
+            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "caf5-ef2d-bb96-dc65",
+                    "childName": "Faction: Night Lords",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ferrokinesis",
+            "id": "4de0-cf8e-a10d-a2e4",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 10,
+            "targetId": "a3e3-5d7f-8101-9495",
+            "type": "selectionEntry",
+            "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}],
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "5477-043f-7576-1fc4",
+                    "childName": "Faction: Iron Hands 30k",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  }
+                ]
+              }
             ]
           }
         ]
