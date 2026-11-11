@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 29,
+    "revision": 30,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -953,7 +953,13 @@
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "characteristics": [{"name": "Description", "$text": "This model can be attached to the following units: PROSECUTORS, VIGILATORS, WITCHSEEKERS", "typeId": "9b8f-694b-e5e-b573"}]
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "This model can be attached to the following units: PROSECUTOR SQUAD, VIGILATOR SQUAD, WITCHSEEKER SQUAD",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
           }
         ],
         "selectionEntries": [
@@ -2066,7 +2072,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model can be attached to the following units: CUSTODIAN GUARD, CUSTODIAN GUARD WITH ADRASITE AND PYRITHITE SPEARS, CUSTODIAN WARDENS, SAGITTARUM CUSTODIANS",
+                "$text": "This model can be attached to the following units: CUSTODIAN GUARD SODALITY, CUSTODIAN WARDENS, SENTINEL GUARD SODALITY",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -3341,7 +3347,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model can be attached to the following units:\n- Prosecutors\n- Vigilators\n- Witchseekers",
+                "$text": "This model can be attached to the following units: PROSECUTOR SQUAD, VIGILATOR SQUAD, WITCHSEEKER SQUAD",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -4418,7 +4424,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model can be attached to the following units: CUSTODIAN GUARD, CUSTODIAN GUARD WITH ADRASITE AND PYRITHITE SPEARS, CUSTODIAN WARDENS, SAGITTARUM CUSTODIANS",
+                "$text": "This model can be attached to the following units: CUSTODIAN GUARD SODALITY, CUSTODIAN GUARD SODALITY WITH ADRASITE SPEARS, CUSTODIAN GUARD SODALITY WITH PYRITHITE SPEARS, CUSTODIAN WARDENS, SAGITTARUM CUSTODIANS SODALITY, SENTINEL GUARD SODALITY",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -4966,7 +4972,13 @@
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "characteristics": [{"name": "Description", "$text": "This model can be attached to the following units: ALLARUS CUSTODIANS, AQUILON CUSTODIANS", "typeId": "9b8f-694b-e5e-b573"}]
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "This model can be attached to the following units: ALLARUS CUSTODIANS, AQUILON TERMINATORS WITH SOLARITE POWER GAUNTLETS, AQUILON TERMINATORS WITH SOLARITE POWER TALONS",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
           },
           {
             "name": "Archeotech Teleport-shunter",
@@ -5341,7 +5353,13 @@
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "characteristics": [{"name": "Description", "$text": "This model can be attached to the following units: AGAMATUS CUSTODIANS, VERTUS PRAETORS", "typeId": "9b8f-694b-e5e-b573"}]
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "This model can be attached to the following units: GYRFALCON JETBIKE SODALITY, VERTUS PRAETORS",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
           },
           {
             "name": "Sweeping Advance",
@@ -5995,7 +6013,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model can be attached to the following units: CUSTODIAN GUARD, CUSTODIAN GUARD WITH ADRASITE AND PYRITHITE SPEARS, CUSTODIAN WARDENS, SAGITTARUM CUSTODIANS",
+                "$text": "This model can be attached to the following units: CUSTODIAN GUARD SODALITY, CUSTODIAN GUARD SODALITY WITH ADRASITE SPEARS, CUSTODIAN GUARD SODALITY WITH PYRITHITE SPEARS, CUSTODIAN WARDENS, SAGITTARUM CUSTODIANS SODALITY, SENTINEL GUARD SODALITY",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -6154,7 +6172,7 @@
             "hidden": false,
             "targetId": "b68a-5ded-65ac-98c",
             "type": "rule",
-            "modifiers": [{"field": "name", "type": "append", "value": 1}]
+            "modifiers": [{"field": "name", "type": "append", "value": "D3"}]
           },
           {
             "name": "Damaged",
@@ -10178,7 +10196,7 @@
             "hidden": false,
             "targetId": "b68a-5ded-65ac-98c",
             "type": "rule",
-            "modifiers": [{"field": "name", "type": "append", "value": 1}]
+            "modifiers": [{"field": "name", "type": "append", "value": "D3"}]
           },
           {"name": "Aegis of the Emperor", "id": "face-da46-1dbe-4517", "hidden": false, "targetId": "a398-0a1d-ef92-162b", "type": "rule"},
           {"name": "Feel No Pain 5+*", "id": "34bf-3806-27f4-cf4e", "hidden": false, "targetId": "faec-8b1b-5a21-0087", "type": "rule"},
@@ -10540,7 +10558,7 @@
             "hidden": false,
             "targetId": "b68a-5ded-65ac-98c",
             "type": "rule",
-            "modifiers": [{"field": "name", "type": "append", "value": 1}]
+            "modifiers": [{"field": "name", "type": "append", "value": "D3"}]
           },
           {"name": "Aegis of the Emperor", "id": "93d4-dd6b-d6dc-5ca2", "hidden": false, "targetId": "a398-0a1d-ef92-162b", "type": "rule"},
           {"name": "Feel No Pain 5+*", "id": "93c9-412f-9448-b6d2", "hidden": false, "targetId": "faec-8b1b-5a21-0087", "type": "rule"},
@@ -11098,7 +11116,7 @@
             "hidden": false,
             "targetId": "b68a-5ded-65ac-98c",
             "type": "rule",
-            "modifiers": [{"field": "name", "type": "append", "value": "D3"}]
+            "modifiers": [{"field": "name", "type": "append", "value": "1"}]
           },
           {"name": "Feel No Pain 5+*", "id": "359c-c6cd-ed1b-dccf", "hidden": false, "targetId": "faec-8b1b-5a21-0087", "type": "rule"},
           {"name": "Aegis of the Emperor", "id": "505d-7206-865c-058e", "hidden": false, "targetId": "a398-0a1d-ef92-162b", "type": "rule"},
@@ -11264,7 +11282,7 @@
         ],
         "profiles": [
           {
-            "name": "Palas Grav-attack",
+            "name": "Pallas Grav-attack",
             "id": "102e-5ed1-6d31-0d93",
             "hidden": false,
             "typeId": "c547-1836-d8a-ff4f",
@@ -11328,13 +11346,56 @@
             "id": "445a-d0a7-f252-1702",
             "hidden": false,
             "sortIndex": 3,
-            "entryLinks": [{"name": "Armoured hull", "id": "5158-1b42-e4d3-8a33", "hidden": false, "import": true, "targetId": "dca3-638e-52a2-b1b8", "type": "selectionEntry"}],
+            "selectionEntries": [
+              {
+                "name": "Armoured hull",
+                "id": "47bd-899f-0e2b-0512",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "de33-1f99-c82d-5734", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
+                  {"id": "1bad-c4b2-2b54-9f20", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ],
+                "entryLinks": [
+                  {
+                    "name": "Weapon Modifications",
+                    "id": "1cdb-98e0-22f8-425f",
+                    "flatten": false,
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "f9da-852a-d7f0-92e9",
+                    "type": "selectionEntryGroup"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Armoured hull",
+                    "id": "19ef-947b-903e-60cc",
+                    "hidden": false,
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "characteristics": [
+                      {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+                      {"name": "A", "$text": "3", "typeId": "2337-daa1-6682-b110"},
+                      {"name": "WS", "$text": "4+", "typeId": "95d1-95f-45b4-11d6"},
+                      {"name": "S", "$text": "6", "typeId": "ab33-d393-96ce-ccba"},
+                      {"name": "AP", "$text": "0", "typeId": "41a0-1301-112a-e2f2"},
+                      {"name": "D", "$text": "1", "typeId": "3254-9fe6-d824-513e"},
+                      {"name": "Keywords", "$text": "", "typeId": "893f-9000-ccf7-648e"}
+                    ]
+                  }
+                ]
+              }
+            ],
             "selectionEntryGroups": [
               {
                 "name": "Hull weapon",
                 "id": "55fb-9edb-5beb-59c8",
                 "defaultSelectionEntryId": "2693-63bf-611f-37fe",
                 "hidden": false,
+                "sortIndex": 2,
                 "constraints": [
                   {"id": "fe97-90dd-6e48-2110-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "fe97-90dd-6e48-2110-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
@@ -12522,7 +12583,7 @@
             "hidden": false,
             "targetId": "c68c-a968-354f-bb99",
             "type": "rule",
-            "modifiers": [{"field": "name", "type": "append", "value": "5"}]
+            "modifiers": [{"field": "name", "type": "append", "value": "6"}]
           },
           {"name": "Aegis of the Emperor", "id": "a6b5-ff47-30a9-47b7", "hidden": false, "targetId": "a398-0a1d-ef92-162b", "type": "rule"},
           {"name": "Feel No Pain 5+*", "id": "17a5-d593-8c67-4613", "hidden": false, "targetId": "faec-8b1b-5a21-0087", "type": "rule"},
@@ -12815,15 +12876,6 @@
             "sortIndex": 3,
             "entryLinks": [
               {
-                "name": "Armoured hull",
-                "id": "cfaf-17dd-1add-2ac1",
-                "hidden": false,
-                "import": true,
-                "sortIndex": 1,
-                "targetId": "dca3-638e-52a2-b1b8",
-                "type": "selectionEntry"
-              },
-              {
                 "name": "Twin Arachnus Blaze Cannon",
                 "id": "2f46-3331-6af1-42c5",
                 "hidden": false,
@@ -12834,6 +12886,49 @@
                 "constraints": [
                   {"id": "2085-927f-2db0-7f94-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "2085-927f-2db0-7f94-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Armoured hull",
+                "id": "4800-1d5f-ce47-fe63",
+                "hidden": false,
+                "import": true,
+                "sortIndex": 1,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "8f63-90ed-65a6-6be6", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
+                  {"id": "74ce-d741-ff5d-c1b5", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ],
+                "entryLinks": [
+                  {
+                    "name": "Weapon Modifications",
+                    "id": "2b98-a589-5552-59b9",
+                    "flatten": false,
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "f9da-852a-d7f0-92e9",
+                    "type": "selectionEntryGroup"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Armoured hull",
+                    "id": "d75f-4ac7-0c53-4f84",
+                    "hidden": false,
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "characteristics": [
+                      {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
+                      {"name": "A", "$text": "6", "typeId": "2337-daa1-6682-b110"},
+                      {"name": "WS", "$text": "4+", "typeId": "95d1-95f-45b4-11d6"},
+                      {"name": "S", "$text": "8", "typeId": "ab33-d393-96ce-ccba"},
+                      {"name": "AP", "$text": "0", "typeId": "41a0-1301-112a-e2f2"},
+                      {"name": "D", "$text": "1", "typeId": "3254-9fe6-d824-513e"},
+                      {"name": "Keywords", "$text": "", "typeId": "893f-9000-ccf7-648e"}
+                    ]
+                  }
                 ]
               }
             ],
@@ -13660,9 +13755,9 @@
                       {"name": "A", "$text": "3", "typeId": "3bb-c35f-f54-fb08"},
                       {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
                       {"name": "S", "$text": "18", "typeId": "2229-f494-25db-c5d3"},
-                      {"name": "AP", "$text": "-4", "typeId": "9ead-8a10-520-de15"},
+                      {"name": "AP", "$text": "-3", "typeId": "9ead-8a10-520-de15"},
                       {"name": "D", "$text": "D6+6", "typeId": "a354-c1c8-a745-f9e3"},
-                      {"name": "Keywords", "typeId": "7f1b-8591-2fcf-d01c"}
+                      {"name": "Keywords", "$text": "", "typeId": "7f1b-8591-2fcf-d01c"}
                     ]
                   }
                 ]
@@ -17348,7 +17443,7 @@
             "id": "66db-c774-badf-d09f",
             "hidden": false,
             "import": true,
-            "sortIndex": 3,
+            "sortIndex": 2,
             "targetId": "a43b-fe98-3d93-435d",
             "type": "selectionEntryGroup"
           }
@@ -17565,7 +17660,7 @@
             "collective": false,
             "hidden": false,
             "import": true,
-            "sortIndex": 2,
+            "sortIndex": 3,
             "type": "model",
             "constraints": [
               {"id": "fdab-bfef-ce5b-2435-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 3},
@@ -17594,6 +17689,17 @@
                   {"name": "Blackstone Fragments", "typeId": "ac6b-ced3-9b5e-9a6e", "value": 0},
                   {"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0},
                   {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}
+                ],
+                "entryLinks": [
+                  {
+                    "name": "Weapon Modifications",
+                    "id": "ab13-ab4b-52d8-b4c3",
+                    "flatten": false,
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "f9da-852a-d7f0-92e9",
+                    "type": "selectionEntryGroup"
+                  }
                 ],
                 "infoLinks": [
                   {"name": "Assault", "id": "0e05-d671-6f4d-169f", "hidden": false, "targetId": "fc8a-8c24-bae9-cc1c", "type": "rule"},
@@ -20421,7 +20527,7 @@
                     "characteristics": [
                       {
                         "name": "Description",
-                        "$text": "(Once per phase, per unit)\nYou can target this unit with the **Rapid Ingress stratagem**, regardless of any other uses of that **stratagem** this phase. If you do:\n- That use is -1 CP.\n- That use does not prevent any uses of that **stratagem** on other units this phase.",
+                        "$text": "(Once per phase, per army)\nYou can target this unit with the **Rapid Ingress stratagem**, regardless of any other uses of that **stratagem** this phase. If you do:\n- That use is -1 CP.\n- That use does not prevent any uses of that **stratagem** on other units this phase.",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ]

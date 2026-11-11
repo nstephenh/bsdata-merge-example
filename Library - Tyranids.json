@@ -10939,8 +10939,16 @@
                   {
                     "type": "and",
                     "modifiers": [
-                      {"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "annotation", "join": ", ", "type": "append", "value": "Elevated Might"},
-                      {"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "41a0-1301-112a-e2f2", "join": ", ", "type": "decrement", "value": 1}
+                      {
+                        "affects": "self.entries.recursive.profiles.Melee Weapons",
+                        "field": "annotation",
+                        "join": ", ",
+                        "scope": "model",
+                        "skipIfPresent": "Elevated Might",
+                        "type": "append",
+                        "value": "Elevated Might"
+                      },
+                      {"affects": "self.entries.recursive.profiles.Melee Weapons", "field": "41a0-1301-112a-e2f2", "join": ", ", "scope": "model", "type": "decrement", "value": 1}
                     ]
                   }
                 ],
